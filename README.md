@@ -360,6 +360,115 @@ for studying App Development mid term! Good Luck
 <p id="answer30" class="answer">Answer: A) Native Apps<br>**Explanation**: Native apps are built specifically for a single platform (iOS or Android), allowing them to fully access all device features, such as GPS, camera, push notifications, and more. This makes them ideal for performance-intensive applications.</p>
 
 
+<h1> Bonus Questions! <h1>
+    <p>1. What is the purpose of prototyping in app development?</p>
+<ul>
+    <li>A) To create the final version of the app</li>
+    <li>B) To test and refine the user experience and functionality before full development</li>
+    <li>C) To ensure that the app’s design meets technical specifications</li>
+    <li>D) All of the above</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(1)">Show Answer</p>
+<p id="answer1" class="answer">Answer: B) To test and refine the user experience and functionality before full development<br>**Explanation**: Prototyping is used to test user flows, design, and functionality early in the process before committing to full-scale development.</p>
+
+<!-- Question 2 -->
+<p>2. Which of the following languages is primarily used for iOS app development?</p>
+<ul>
+    <li>A) Kotlin</li>
+    <li>B) Swift</li>
+    <li>C) Java</li>
+    <li>D) Python</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(2)">Show Answer</p>
+<p id="answer2" class="answer">Answer: B) Swift<br>**Explanation**: Swift is the primary programming language for developing iOS apps. It was introduced by Apple to replace Objective-C and is widely used for building apps for iPhones and iPads.</p>
+
+<!-- Question 3 -->
+<p>3. What does the Agile methodology emphasize in app development?</p>
+<ul>
+    <li>A) Fast prototyping</li>
+    <li>B) Iterative development with regular feedback</li>
+    <li>C) Strict adherence to the project plan</li>
+    <li>D) All of the above</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(3)">Show Answer</p>
+<p id="answer3" class="answer">Answer: B) Iterative development with regular feedback<br>**Explanation**: Agile focuses on iterative development, continuous feedback, and flexibility to accommodate changes, which makes it an ideal approach for app development projects where requirements may evolve.</p>
+
+<!-- Question 4 -->
+<p>4. Which of the following are benefits of using cloud services for app development?</p>
+<ul>
+    <li>A) Scalability</li>
+    <li>B) Cost-efficiency</li>
+    <li>C) Flexibility in managing resources</li>
+    <li>D) All of the above</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(4)">Show Answer</p>
+<p id="answer4" class="answer">Answer: D) All of the above<br>**Explanation**: Cloud services offer scalability, cost-efficiency, and flexibility in managing resources, making them a popular choice for hosting, storage, and app infrastructure.</p>
+
+<!-- Question 5 -->
+<p>5. What is an example of a cross-platform framework?</p>
+<ul>
+    <li>A) Swift</li>
+    <li>B) React Native</li>
+    <li>C) Kotlin</li>
+    <li>D) All of the above</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(5)">Show Answer</p>
+<p id="answer5" class="answer">Answer: B) React Native<br>**Explanation**: React Native is a popular cross-platform framework that allows developers to write code once and deploy it on both iOS and Android. It uses JavaScript and React for building mobile applications.</p>
+
+<!-- Question 6 -->
+<p>6. Which of the following are common revenue models in mobile apps?</p>
+<ul>
+    <li>A) Freemium</li>
+    <li>B) Subscription</li>
+    <li>C) In-app Advertising</li>
+    <li>D) All of the above</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(6)">Show Answer</p>
+<p id="answer6" class="answer">Answer: D) All of the above<br>**Explanation**: Freemium, subscription, and in-app advertising are all common revenue models used in mobile apps to generate income. Developers often use a combination of these models depending on the app’s purpose and audience.</p>
+
+<!-- Question 7 -->
+<p>7. What does "responsive design" refer to in app and web development?</p>
+<ul>
+    <li>A) The app’s ability to load faster</li>
+    <li>B) The app’s ability to adapt to different screen sizes and resolutions</li>
+    <li>C) The app’s ability to send notifications</li>
+    <li>D) The app’s ability to store user data locally</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(7)">Show Answer</p>
+<p id="answer7" class="answer">Answer: B) The app’s ability to adapt to different screen sizes and resolutions<br>**Explanation**: Responsive design ensures that an app or website looks good and functions well on various devices, including smartphones, tablets, and desktop computers, by adjusting layouts and elements based on screen size.</p>
+
+<!-- Question 8 -->
+<p>8. What is an advantage of using APIs in app development?</p>
+<ul>
+    <li>A) Allows for integration with third-party services</li>
+    <li>B) Reduces the need for custom code</li>
+    <li>C) Speeds up development time</li>
+    <li>D) All of the above</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(8)">Show Answer</p>
+<p id="answer8" class="answer">Answer: D) All of the above<br>**Explanation**: APIs (Application Programming Interfaces) allow developers to integrate third-party services, reduce custom coding needs, and speed up development by providing pre-built functions and data.</p>
+
+<!-- Question 9 -->
+<p>9. What is a key characteristic of the Waterfall methodology in app development?</p>
+<ul>
+    <li>A) Flexibility to accommodate changes</li>
+    <li>B) Sequential phases with clearly defined goals</li>
+    <li>C) Continuous feedback and iteration</li>
+    <li>D) Emphasis on user testing early in development</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(9)">Show Answer</p>
+<p id="answer9" class="answer">Answer: B) Sequential phases with clearly defined goals<br>**Explanation**: The Waterfall methodology follows a linear, sequential approach where each phase of development (e.g., design, coding, testing) must be completed before moving to the next. It’s less flexible than Agile and doesn’t handle changes as well.</p>
+
+<!-- Question 10 -->
+<p>10. What is the key difference between Native and Hybrid apps?</p>
+<ul>
+    <li>A) Native apps are built specifically for one platform, while hybrid apps work across platforms</li>
+    <li>B) Native apps require fewer resources to develop</li>
+    <li>C) Hybrid apps offer better performance</li>
+    <li>D) Native apps can be written in any programming language</li>
+</ul>
+<p class="show-answer" onclick="toggleAnswer(10)">Show Answer</p>
+<p id="answer10" class="answer">Answer: A) Native apps are built specifically for one platform, while hybrid apps work across platforms<br>**Explanation**: Native apps are built specifically for one platform (e.g., iOS or Android) using platform-specific languages, while hybrid apps are built using web technologies and can run on multiple platforms.</p>
 
 <script>
     function toggleAnswer(questionNumber) {
