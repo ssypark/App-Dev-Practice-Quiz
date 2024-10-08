@@ -361,7 +361,7 @@ for studying App Development mid term! Good Luck
 
 
 <h1> Bonus Questions! <h1>
-    <p>1. What is the purpose of prototyping in app development?</p>
+<p>1. What is the purpose of prototyping in app development?</p>
 <ul>
     <li>A) To create the final version of the app</li>
     <li>B) To test and refine the user experience and functionality before full development</li>
