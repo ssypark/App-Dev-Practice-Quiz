@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: The Chemical Level of Organization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            font-size: 1em;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .show-answer:hover,
+        .show-answer:active {
+            background: #45a049;
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Quiz: The Chemical Level of Organization</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. What is the smallest unit of matter?</p>
+    <ul>
+        <li>A) Molecule</li>
+        <li>B) Atom</li>
+        <li>C) Proton</li>
+        <li>D) Neutron</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: B) Atom<br><strong>Explanation:</strong> Atoms are the smallest units of matter that retain the properties of an element.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. Which subatomic particles are found in the nucleus of an atom?</p>
+    <ul>
+        <li>A) Electrons</li>
+        <li>B) Protons and Neutrons</li>
+        <li>C) Protons and Electrons</li>
+        <li>D) Neutrons and Electrons</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: B) Protons and Neutrons<br><strong>Explanation:</strong> The nucleus of an atom contains protons and neutrons, while electrons orbit the nucleus.</div>
+</div>
+
+<!-- Questions 3–8 are already provided in the earlier section -->
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. What is the primary function of enzymes in the body?</p>
+    <ul>
+        <li>A) To store energy</li>
+        <li>B) To act as catalysts for biochemical reactions</li>
+        <li>C) To provide structural support</li>
+        <li>D) To transmit genetic information</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: B) To act as catalysts for biochemical reactions<br><strong>Explanation:</strong> Enzymes speed up chemical reactions without being consumed in the process.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. What type of bond is formed when one atom donates an electron to another?</p>
+    <ul>
+        <li>A) Covalent Bond</li>
+        <li>B) Ionic Bond</li>
+        <li>C) Hydrogen Bond</li>
+        <li>D) Polar Bond</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: B) Ionic Bond<br><strong>Explanation:</strong> Ionic bonds occur when one atom donates an electron to another, forming charged ions.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. Which macromolecule is primarily used for long-term energy storage?</p>
+    <ul>
+        <li>A) Proteins</li>
+        <li>B) Carbohydrates</li>
+        <li>C) Lipids</li>
+        <li>D) Nucleic Acids</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: C) Lipids<br><strong>Explanation:</strong> Lipids, such as fats and oils, are used for long-term energy storage and insulation.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. What is the monomer of proteins?</p>
+    <ul>
+        <li>A) Nucleotides</li>
+        <li>B) Amino Acids</li>
+        <li>C) Monosaccharides</li>
+        <li>D) Fatty Acids</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: B) Amino Acids<br><strong>Explanation:</strong> Proteins are polymers made of amino acid monomers linked by peptide bonds.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. Which element is found in all organic compounds?</p>
+    <ul>
+        <li>A) Oxygen</li>
+        <li>B) Hydrogen</li>
+        <li>C) Carbon</li>
+        <li>D) Nitrogen</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: C) Carbon<br><strong>Explanation:</strong> Carbon is the backbone of all organic molecules, forming diverse structures such as chains and rings.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. What is the role of ATP in cellular processes?</p>
+    <ul>
+        <li>A) To store genetic information</li>
+        <li>B) To act as a structural molecule</li>
+        <li>C) To provide energy</li>
+        <li>D) To transport oxygen</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: C) To provide energy<br><strong>Explanation:</strong> ATP (adenosine triphosphate) stores and releases energy for cellular processes.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. What type of carbohydrate is glucose?</p>
+    <ul>
+        <li>A) Monosaccharide</li>
+        <li>B) Disaccharide</li>
+        <li>C) Polysaccharide</li>
+        <li>D) Oligosaccharide</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: A) Monosaccharide<br><strong>Explanation:</strong> Glucose is a simple sugar and a monosaccharide, serving as a primary energy source for cells.</div>
+</div>
+
+<!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. What are the building blocks of nucleic acids?</p>
+    <ul>
+        <li>A) Amino Acids</li>
+        <li>B) Monosaccharides</li>
+        <li>C) Fatty Acids</li>
+        <li>D) Nucleotides</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: D) Nucleotides<br><strong>Explanation:</strong> Nucleic acids (DNA and RNA) are polymers of nucleotide monomers.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. What is the difference between saturated and unsaturated fats?</p>
+    <ul>
+        <li>A) Saturated fats contain double bonds; unsaturated fats do not</li>
+        <li>B) Saturated fats are solid at room temperature; unsaturated fats are liquid</li>
+        <li>C) Unsaturated fats have more hydrogen atoms</li>
+        <li>D) There is no difference</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: B) Saturated fats are solid at room temperature; unsaturated fats are liquid<br><strong>Explanation:</strong> Saturated fats have no double bonds, making them pack tightly, while unsaturated fats have double bonds that create kinks in their structure.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. Which pH value indicates an acidic solution?</p>
+    <ul>
+        <li>A) 7</li>
+        <li>B) 9</li>
+        <li>C) 3</li>
+        <li>D) 14</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: C) 3<br><strong>Explanation:</strong> A pH value less than 7 indicates an acidic solution, where hydrogen ion concentration is high.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. Which macromolecule forms cell membranes?</p>
+    <ul>
+        <li>A) Proteins</li>
+        <li>B) Lipids</li>
+        <li>C) Carbohydrates</li>
+        <li>D) Nucleic Acids</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: B) Lipids<br><strong>Explanation:</strong> Phospholipids form a bilayer that makes up the structure of cell membranes.</div>
+</div>
+
+<!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. Which molecule carries genetic information?</p>
+    <ul>
+        <li>A) ATP</li>
+        <li>B) DNA</li>
+        <li>C) RNA</li>
+        <li>D) Protein</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: B) DNA<br><strong>Explanation:</strong> DNA stores and transmits genetic information, directing protein synthesis and cellular function.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. What type of reaction breaks polymers into monomers?</p>
+    <ul>
+        <li>A) Dehydration Synthesis</li>
+        <li>B) Hydrolysis</li>
+        <li>C) Combustion</li>
+        <li>D) Oxidation</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: B) Hydrolysis<br><strong>Explanation:</strong> Hydrolysis reactions break polymers into monomers by adding water molecules.</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. Which property of water makes it an excellent solvent?</p>
+    <ul>
+        <li>A) Low boiling point</li>
+        <li>B) Polarity</li>
+        <li>C) Non-polar bonds</li>
+        <li>D) Neutral pH</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: B) Polarity<br><strong>Explanation:</strong> The polarity of water molecules allows them to dissolve ionic and polar substances.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. What is the primary function of RNA in cells?</p>
+    <ul>
+        <li>A) Storing genetic information</li>
+        <li>B) Synthesizing proteins</li>
+        <li>C) Providing energy</li>
+        <li>D) Forming cell membranes</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: B) Synthesizing proteins<br><strong>Explanation:</strong> RNA transcribes genetic information from DNA and translates it into proteins.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. What is the function of buffers in the body?</p>
+    <ul>
+        <li>A) Transporting oxygen</li>
+        <li>B) Maintaining pH balance</li>
+        <li>C) Providing structural support</li>
+        <li>D) Storing energy</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: B) Maintaining pH balance<br><strong>Explanation:</strong> Buffers help maintain a stable pH by neutralizing acids or bases in the body.</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. Which molecule is known as the "universal solvent"?</p>
+    <ul>
+        <li>A) Glucose</li>
+        <li>B) Water</li>
+        <li>C) ATP</li>
+        <li>D) DNA</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: B) Water<br><strong>Explanation:</strong> Water's polarity makes it capable of dissolving many substances, earning it the title "universal solvent."</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question-container">
+    <p class="question">26. What type of lipid is the primary component of cell membranes?</p>
+    <ul>
+        <li>A) Steroids</li>
+        <li>B) Triglycerides</li>
+        <li>C) Phospholipids</li>
+        <li>D) Waxes</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: C) Phospholipids<br><strong>Explanation:</strong> Phospholipids form a bilayer in cell membranes, creating a barrier that separates the cell interior from the environment.</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question-container">
+    <p class="question">27. What is the role of cholesterol in the cell membrane?</p>
+    <ul>
+        <li>A) Providing energy</li>
+        <li>B) Storing genetic information</li>
+        <li>C) Stabilizing membrane fluidity</li>
+        <li>D) Facilitating enzyme activity</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: C) Stabilizing membrane fluidity<br><strong>Explanation:</strong> Cholesterol helps maintain the fluidity and structural integrity of the cell membrane.</div>
+</div>
+
+<!-- Question 28 -->
+<div class="question-container">
+    <p class="question">28. What happens during a dehydration synthesis reaction?</p>
+    <ul>
+        <li>A) Water is added to break a bond</li>
+        <li>B) Water is removed to form a bond</li>
+        <li>C) Energy is released</li>
+        <li>D) Hydrogen ions are produced</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: B) Water is removed to form a bond<br><strong>Explanation:</strong> Dehydration synthesis joins two molecules by removing a water molecule, forming a covalent bond.</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question-container">
+    <p class="question">29. Which type of macromolecule includes enzymes?</p>
+    <ul>
+        <li>A) Proteins</li>
+        <li>B) Carbohydrates</li>
+        <li>C) Lipids</li>
+        <li>D) Nucleic Acids</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: A) Proteins<br><strong>Explanation:</strong> Enzymes are specialized proteins that catalyze biochemical reactions.</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question-container">
+    <p class="question">30. What is the primary role of carbohydrates in the body?</p>
+    <ul>
+        <li>A) Building cell structures</li>
+        <li>B) Storing genetic information</li>
+        <li>C) Providing quick energy</li>
+        <li>D) Maintaining pH balance</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: C) Providing quick energy<br><strong>Explanation:</strong> Carbohydrates, such as glucose, are the body’s primary source of quick energy.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Cellular Level of Organization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            font-size: 1em;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .show-answer:hover,
+        .show-answer:active {
+            background: #45a049;
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Quiz: Cellular Level of Organization</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. What is the primary function of the plasma membrane?</p>
+    <ul>
+        <li>A) Protein synthesis</li>
+        <li>B) Genetic information storage</li>
+        <li>C) Regulating what enters and exits the cell</li>
+        <li>D) Energy production</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: C) Regulating what enters and exits the cell<br><strong>Explanation:</strong> The plasma membrane is selectively permeable and regulates the movement of substances in and out of the cell.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. Which organelle is known as the "powerhouse of the cell"?</p>
+    <ul>
+        <li>A) Nucleus</li>
+        <li>B) Golgi Apparatus</li>
+        <li>C) Mitochondria</li>
+        <li>D) Ribosome</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: C) Mitochondria<br><strong>Explanation:</strong> The mitochondria produce ATP, the energy currency of the cell, through cellular respiration.</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. What is the primary role of ribosomes?</p>
+    <ul>
+        <li>A) Storing genetic material</li>
+        <li>B) Protein synthesis</li>
+        <li>C) Lipid synthesis</li>
+        <li>D) Energy production</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: B) Protein synthesis<br><strong>Explanation:</strong> Ribosomes are responsible for assembling proteins from amino acids using mRNA as a template.</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. What is the function of the nucleus in eukaryotic cells?</p>
+    <ul>
+        <li>A) Producing ATP</li>
+        <li>B) Synthesizing proteins</li>
+        <li>C) Storing and protecting genetic information</li>
+        <li>D) Modifying and packaging proteins</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: C) Storing and protecting genetic information<br><strong>Explanation:</strong> The nucleus houses the cell's DNA and regulates gene expression.</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. Which organelle modifies, sorts, and packages proteins for secretion?</p>
+    <ul>
+        <li>A) Ribosome</li>
+        <li>B) Golgi Apparatus</li>
+        <li>C) Endoplasmic Reticulum</li>
+        <li>D) Lysosome</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: B) Golgi Apparatus<br><strong>Explanation:</strong> The Golgi apparatus processes and packages proteins for transport within the cell or secretion outside the cell.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. What is the primary function of lysosomes?</p>
+    <ul>
+        <li>A) Protein synthesis</li>
+        <li>B) Digesting cellular waste</li>
+        <li>C) Lipid storage</li>
+        <li>D) Energy production</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: B) Digesting cellular waste<br><strong>Explanation:</strong> Lysosomes contain enzymes that break down waste materials and cellular debris.</div>
+</div>
+
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. Which cellular structure is responsible for maintaining the cell's shape and aiding in movement?</p>
+    <ul>
+        <li>A) Plasma Membrane</li>
+        <li>B) Cytoskeleton</li>
+        <li>C) Mitochondria</li>
+        <li>D) Nucleus</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: B) Cytoskeleton<br><strong>Explanation:</strong> The cytoskeleton is a network of protein filaments that provides structural support and facilitates intracellular transport and movement.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. What type of transport does not require energy and moves molecules down their concentration gradient?</p>
+    <ul>
+        <li>A) Active Transport</li>
+        <li>B) Osmosis</li>
+        <li>C) Diffusion</li>
+        <li>D) Facilitated Diffusion</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: C) Diffusion<br><strong>Explanation:</strong> Diffusion is the passive movement of molecules from an area of higher concentration to an area of lower concentration without requiring energy.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. Which type of transport moves water across a selectively permeable membrane?</p>
+    <ul>
+        <li>A) Diffusion</li>
+        <li>B) Osmosis</li>
+        <li>C) Active Transport</li>
+        <li>D) Endocytosis</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: B) Osmosis<br><strong>Explanation:</strong> Osmosis is the movement of water molecules through a selectively permeable membrane from a region of low solute concentration to a region of high solute concentration.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. What is required for active transport to occur?</p>
+    <ul>
+        <li>A) A concentration gradient</li>
+        <li>B) ATP (energy)</li>
+        <li>C) Passive diffusion</li>
+        <li>D) Osmotic pressure</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: B) ATP (energy)<br><strong>Explanation:</strong> Active transport requires energy in the form of ATP to move molecules against their concentration gradient.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. Which process involves a cell engulfing a large particle or organism?</p>
+    <ul>
+        <li>A) Pinocytosis</li>
+        <li>B) Phagocytosis</li>
+        <li>C) Exocytosis</li>
+        <li>D) Facilitated Diffusion</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: B) Phagocytosis<br><strong>Explanation:</strong> Phagocytosis is a form of endocytosis where the cell engulfs large particles or microorganisms.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. Which organelle is involved in detoxifying harmful substances in the liver?</p>
+    <ul>
+        <li>A) Lysosome</li>
+        <li>B) Peroxisome</li>
+        <li>C) Golgi Apparatus</li>
+        <li>D) Endoplasmic Reticulum</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: B) Peroxisome<br><strong>Explanation:</strong> Peroxisomes contain enzymes that detoxify harmful substances like alcohol and free radicals, especially in liver cells.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. What is the main function of the smooth endoplasmic reticulum?</p>
+    <ul>
+        <li>A) Protein synthesis</li>
+        <li>B) Lipid synthesis</li>
+        <li>C) Energy production</li>
+        <li>D) Genetic information storage</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: B) Lipid synthesis<br><strong>Explanation:</strong> The smooth endoplasmic reticulum synthesizes lipids and hormones and is also involved in detoxification.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. What is the phase of the cell cycle where DNA is replicated?</p>
+    <ul>
+        <li>A) G1 Phase</li>
+        <li>B) S Phase</li>
+        <li>C) G2 Phase</li>
+        <li>D) M Phase</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: B) S Phase<br><strong>Explanation:</strong> During the S (synthesis) phase of interphase, DNA is replicated in preparation for cell division.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. Which phase of mitosis involves chromosomes lining up along the metaphase plate?</p>
+    <ul>
+        <li>A) Prophase</li>
+        <li>B) Metaphase</li>
+        <li>C) Anaphase</li>
+        <li>D) Telophase</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: B) Metaphase<br><strong>Explanation:</strong> In metaphase, chromosomes align at the cell's equator (metaphase plate) before being separated into daughter cells.</div>
+</div>
+
+<!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. Which phase of mitosis involves sister chromatids being pulled apart to opposite poles of the cell?</p>
+    <ul>
+        <li>A) Prophase</li>
+        <li>B) Metaphase</li>
+        <li>C) Anaphase</li>
+        <li>D) Telophase</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: C) Anaphase<br><strong>Explanation:</strong> During anaphase, sister chromatids are separated and pulled toward opposite poles of the cell by spindle fibers.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. What happens during telophase in mitosis?</p>
+    <ul>
+        <li>A) Chromosomes condense</li>
+        <li>B) The nuclear envelope re-forms</li>
+        <li>C) The cytoplasm divides</li>
+        <li>D) Chromosomes line up at the metaphase plate</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: B) The nuclear envelope re-forms<br><strong>Explanation:</strong> In telophase, the nuclear envelope re-forms around each set of chromosomes, and the chromosomes begin to decondense.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. What is cytokinesis?</p>
+    <ul>
+        <li>A) The division of the nucleus</li>
+        <li>B) The replication of DNA</li>
+        <li>C) The division of the cytoplasm</li>
+        <li>D) The formation of spindle fibers</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: C) The division of the cytoplasm<br><strong>Explanation:</strong> Cytokinesis is the process of dividing the cytoplasm, resulting in two daughter cells after mitosis.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. What are the small, hair-like projections on some cells that help move substances across the cell surface?</p>
+    <ul>
+        <li>A) Flagella</li>
+        <li>B) Microvilli</li>
+        <li>C) Cilia</li>
+        <li>D) Centrosomes</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: C) Cilia<br><strong>Explanation:</strong> Cilia are small, hair-like projections that beat in coordinated waves to move substances across the cell surface.</div>
+</div>
+
+<!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. Which organelle produces the mitotic spindle during cell division?</p>
+    <ul>
+        <li>A) Centrosome</li>
+        <li>B) Lysosome</li>
+        <li>C) Golgi Apparatus</li>
+        <li>D) Nucleolus</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: A) Centrosome<br><strong>Explanation:</strong> The centrosome organizes microtubules and produces the mitotic spindle, essential for chromosome segregation during cell division.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. What is the main function of microvilli on epithelial cells?</p>
+    <ul>
+        <li>A) Movement</li>
+        <li>B) Increasing surface area for absorption</li>
+        <li>C) Protein synthesis</li>
+        <li>D) Detoxification</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: B) Increasing surface area for absorption<br><strong>Explanation:</strong> Microvilli increase the surface area of epithelial cells, enhancing their ability to absorb nutrients and other substances.</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. What is the role of gap junctions in cells?</p>
+    <ul>
+        <li>A) Preventing leakage between cells</li>
+        <li>B) Allowing direct communication between adjacent cells</li>
+        <li>C) Anchoring cells to the extracellular matrix</li>
+        <li>D) Providing structural support</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: B) Allowing direct communication between adjacent cells<br><strong>Explanation:</strong> Gap junctions allow ions and small molecules to pass directly between adjacent cells, enabling communication.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. What are tight junctions in epithelial cells?</p>
+    <ul>
+        <li>A) Structures that allow ion flow</li>
+        <li>B) Seals that prevent substances from passing between cells</li>
+        <li>C) Connections that anchor cells to the basement membrane</li>
+        <li>D) Channels that transport proteins</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: B) Seals that prevent substances from passing between cells<br><strong>Explanation:</strong> Tight junctions create a barrier that prevents the passage of molecules and ions between epithelial cells.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. Which organelle is responsible for protein folding and quality control?</p>
+    <ul>
+        <li>A) Smooth Endoplasmic Reticulum</li>
+        <li>B) Rough Endoplasmic Reticulum</li>
+        <li>C) Golgi Apparatus</li>
+        <li>D) Lysosome</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: B) Rough Endoplasmic Reticulum<br><strong>Explanation:</strong> The rough endoplasmic reticulum, studded with ribosomes, is responsible for folding and modifying newly synthesized proteins.</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. What is the function of a nucleolus?</p>
+    <ul>
+        <li>A) DNA replication</li>
+        <li>B) Ribosome production</li>
+        <li>C) Lipid synthesis</li>
+        <li>D) Protein degradation</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: B) Ribosome production<br><strong>Explanation:</strong> The nucleolus is a dense region within the nucleus where ribosomal RNA is synthesized and ribosome assembly begins.</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question-container">
+    <p class="question">26. What is the role of vesicles in the cell?</p>
+    <ul>
+        <li>A) DNA storage</li>
+        <li>B) Transporting substances within or outside the cell</li>
+        <li>C) Energy production</li>
+        <li>D) Synthesizing proteins</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: B) Transporting substances within or outside the cell<br><strong>Explanation:</strong> Vesicles are membrane-bound sacs that transport materials such as proteins and lipids within the cell or to the cell membrane for exocytosis.</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question-container">
+    <p class="question">27. What is the role of aquaporins in the cell membrane?</p>
+    <ul>
+        <li>A) Facilitating active transport</li>
+        <li>B) Allowing water to pass through the membrane</li>
+        <li>C) Blocking ion flow</li>
+        <li>D) Maintaining the cell's shape</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: B) Allowing water to pass through the membrane<br><strong>Explanation:</strong> Aquaporins are channel proteins that facilitate the transport of water across the plasma membrane.</div>
+</div>
+
+<!-- Question 28 -->
+<div class="question-container">
+    <p class="question">28. What is an example of a cell that performs phagocytosis?</p>
+    <ul>
+        <li>A) Red blood cell</li>
+        <li>B) Neuron</li>
+        <li>C) Macrophage</li>
+        <li>D) Muscle cell</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: C) Macrophage<br><strong>Explanation:</strong> Macrophages are immune cells that engulf and digest pathogens and cellular debris through phagocytosis.</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question-container">
+    <p class="question">29. What is the term for programmed cell death?</p>
+    <ul>
+        <li>A) Mitosis</li>
+        <li>B) Necrosis</li>
+        <li>C) Apoptosis</li>
+        <li>D) Cytokinesis</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: C) Apoptosis<br><strong>Explanation:</strong> Apoptosis is a controlled process where cells self-destruct for proper development and maintenance of tissue health.</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question-container">
+    <p class="question">30. What does the fluid mosaic model describe?</p>
+    <ul>
+        <li>A) The structure of the cytoplasm</li>
+        <li>B) The movement of water through aquaporins</li>
+        <li>C) The dynamic arrangement of lipids and proteins in the plasma membrane</li>
+        <li>D) The function of the endoplasmic reticulum</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: C) The dynamic arrangement of lipids and proteins in the plasma membrane<br><strong>Explanation:</strong> The fluid mosaic model describes how lipids and proteins move fluidly within the bilayer, creating a dynamic, flexible membrane.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>

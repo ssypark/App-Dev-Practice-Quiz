@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Tissue Level of Organization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            font-size: 1em;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .show-answer:hover,
+        .show-answer:active {
+            background: #45a049;
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Quiz: Tissue Level of Organization</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. What are the four main types of tissues in the body?</p>
+    <ul>
+        <li>A) Epithelial, Connective, Muscular, Nervous</li>
+        <li>B) Epithelial, Bone, Cartilage, Nervous</li>
+        <li>C) Epithelial, Skeletal, Smooth, Nervous</li>
+        <li>D) Connective, Blood, Lymphatic, Nervous</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: A) Epithelial, Connective, Muscular, Nervous<br><strong>Explanation:</strong> The four primary tissue types are epithelial, connective, muscular, and nervous tissue.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. Which type of tissue lines body surfaces and cavities?</p>
+    <ul>
+        <li>A) Connective</li>
+        <li>B) Epithelial</li>
+        <li>C) Muscular</li>
+        <li>D) Nervous</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: B) Epithelial<br><strong>Explanation:</strong> Epithelial tissue forms protective coverings on body surfaces and lines internal cavities and organs.</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. What is a primary function of connective tissue?</p>
+    <ul>
+        <li>A) Contraction</li>
+        <li>B) Protection, support, and binding of organs</li>
+        <li>C) Generating electrical impulses</li>
+        <li>D) Forming protective barriers</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: B) Protection, support, and binding of organs<br><strong>Explanation:</strong> Connective tissue provides structural support, protects organs, and binds other tissues together.</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. Which type of epithelial tissue is best suited for absorption and secretion?</p>
+    <ul>
+        <li>A) Simple Squamous</li>
+        <li>B) Stratified Squamous</li>
+        <li>C) Simple Cuboidal</li>
+        <li>D) Transitional</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: C) Simple Cuboidal<br><strong>Explanation:</strong> Simple cuboidal epithelium specializes in absorption and secretion, often found in glands and kidney tubules.</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. What type of connective tissue stores energy and insulates the body?</p>
+    <ul>
+        <li>A) Bone</li>
+        <li>B) Cartilage</li>
+        <li>C) Adipose</li>
+        <li>D) Blood</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: C) Adipose<br><strong>Explanation:</strong> Adipose tissue stores fat, which provides insulation, energy storage, and protection for organs.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. What is the primary function of nervous tissue?</p>
+    <ul>
+        <li>A) Contracting to produce movement</li>
+        <li>B) Conducting electrical signals</li>
+        <li>C) Protecting and supporting organs</li>
+        <li>D) Secreting hormones</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: B) Conducting electrical signals<br><strong>Explanation:</strong> Nervous tissue generates and transmits electrical signals to coordinate body activities.</div>
+</div>
+
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. What is the role of stratified squamous epithelium?</p>
+    <ul>
+        <li>A) Absorption</li>
+        <li>B) Filtration</li>
+        <li>C) Protection</li>
+        <li>D) Secretion</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: C) Protection<br><strong>Explanation:</strong> Stratified squamous epithelium protects against mechanical stress and is found in areas like the skin, mouth, and esophagus.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. What type of muscle tissue is involuntary and striated?</p>
+    <ul>
+        <li>A) Skeletal</li>
+        <li>B) Smooth</li>
+        <li>C) Cardiac</li>
+        <li>D) Connective</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: C) Cardiac<br><strong>Explanation:</strong> Cardiac muscle tissue is involuntary and striated, found only in the heart.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. Which connective tissue type provides structural support and is found in tendons and ligaments?</p>
+    <ul>
+        <li>A) Adipose</li>
+        <li>B) Dense Regular</li>
+        <li>C) Loose Areolar</li>
+        <li>D) Cartilage</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: B) Dense Regular<br><strong>Explanation:</strong> Dense regular connective tissue is composed of tightly packed collagen fibers, providing strength and support in tendons and ligaments.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. What type of epithelial tissue is specialized for stretching and is found in the urinary bladder?</p>
+    <ul>
+        <li>A) Simple Squamous</li>
+        <li>B) Transitional</li>
+        <li>C) Stratified Columnar</li>
+        <li>D) Pseudostratified Columnar</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: B) Transitional<br><strong>Explanation:</strong> Transitional epithelium is designed to stretch and recoil, making it ideal for the bladder and other urinary structures.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. What is the primary function of smooth muscle tissue?</p>
+    <ul>
+        <li>A) Voluntary movement</li>
+        <li>B) Involuntary movement</li>
+        <li>C) Structural support</li>
+        <li>D) Conducting electrical signals</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: B) Involuntary movement<br><strong>Explanation:</strong> Smooth muscle tissue contracts involuntarily and is found in the walls of hollow organs like the stomach and blood vessels.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. Which type of cartilage is found in the external ear and epiglottis?</p>
+    <ul>
+        <li>A) Hyaline Cartilage</li>
+        <li>B) Elastic Cartilage</li>
+        <li>C) Fibrocartilage</li>
+        <li>D) Adipose Tissue</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: B) Elastic Cartilage<br><strong>Explanation:</strong> Elastic cartilage provides flexibility and support, making it suitable for the external ear and epiglottis.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. Which epithelial tissue type is involved in gas exchange in the lungs?</p>
+    <ul>
+        <li>A) Simple Squamous</li>
+        <li>B) Simple Cuboidal</li>
+        <li>C) Stratified Squamous</li>
+        <li>D) Transitional</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: A) Simple Squamous<br><strong>Explanation:</strong> Simple squamous epithelium allows for rapid diffusion of gases in the alveoli of the lungs.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. What is the extracellular matrix (ECM) primarily composed of in connective tissue?</p>
+    <ul>
+        <li>A) Cells and membranes</li>
+        <li>B) Fibers and ground substance</li>
+        <li>C) Blood and lymph</li>
+        <li>D) Cartilage and bone</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: B) Fibers and ground substance<br><strong>Explanation:</strong> The ECM in connective tissue consists of protein fibers (collagen, elastic) and ground substance, providing structure and support.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. Which type of connective tissue acts as a "packing material" around organs?</p>
+    <ul>
+        <li>A) Dense Regular</li>
+        <li>B) Loose Areolar</li>
+        <li>C) Reticular</li>
+        <li>D) Cartilage</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: B) Loose Areolar<br><strong>Explanation:</strong> Loose areolar connective tissue surrounds and cushions organs, providing flexibility and support.</div>
+</div>
+
+<!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. What is the role of reticular connective tissue?</p>
+    <ul>
+        <li>A) Transporting oxygen</li>
+        <li>B) Supporting the framework of organs</li>
+        <li>C) Contracting for movement</li>
+        <li>D) Conducting electrical signals</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: B) Supporting the framework of organs<br><strong>Explanation:</strong> Reticular connective tissue provides a supporting framework for organs like the spleen, lymph nodes, and liver.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. What type of epithelial tissue has cilia and is involved in moving mucus in the respiratory tract?</p>
+    <ul>
+        <li>A) Simple Squamous</li>
+        <li>B) Stratified Cuboidal</li>
+        <li>C) Pseudostratified Columnar</li>
+        <li>D) Transitional</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: C) Pseudostratified Columnar<br><strong>Explanation:</strong> Ciliated pseudostratified columnar epithelium moves mucus and trapped particles in the respiratory tract.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. What type of connective tissue forms the embryonic skeleton and provides cushioning in joints?</p>
+    <ul>
+        <li>A) Elastic Cartilage</li>
+        <li>B) Hyaline Cartilage</li>
+        <li>C) Fibrocartilage</li>
+        <li>D) Adipose Tissue</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: B) Hyaline Cartilage<br><strong>Explanation:</strong> Hyaline cartilage is the most abundant type of cartilage, forming the embryonic skeleton and cushioning joints like the knees.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. Which type of tissue is composed of neurons and neuroglia?</p>
+    <ul>
+        <li>A) Connective Tissue</li>
+        <li>B) Muscular Tissue</li>
+        <li>C) Nervous Tissue</li>
+        <li>D) Epithelial Tissue</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: C) Nervous Tissue<br><strong>Explanation:</strong> Nervous tissue consists of neurons, which transmit signals, and neuroglia, which provide support and protection.</div>
+</div>
+
+ <!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. Which connective tissue has the highest tensile strength and is found in intervertebral discs?</p>
+    <ul>
+        <li>A) Elastic Cartilage</li>
+        <li>B) Fibrocartilage</li>
+        <li>C) Hyaline Cartilage</li>
+        <li>D) Dense Regular</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: B) Fibrocartilage<br><strong>Explanation:</strong> Fibrocartilage is tough and absorbs compressive forces, making it ideal for intervertebral discs and knee joints.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. What type of muscle tissue is multinucleated and under voluntary control?</p>
+    <ul>
+        <li>A) Skeletal Muscle</li>
+        <li>B) Smooth Muscle</li>
+        <li>C) Cardiac Muscle</li>
+        <li>D) Connective Tissue</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: A) Skeletal Muscle<br><strong>Explanation:</strong> Skeletal muscle tissue is striated, multinucleated, and controlled voluntarily for movement.</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. What are the main components of nervous tissue?</p>
+    <ul>
+        <li>A) Myofibrils and collagen</li>
+        <li>B) Neurons and neuroglia</li>
+        <li>C) Osteocytes and fibroblasts</li>
+        <li>D) Chondrocytes and elastic fibers</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: B) Neurons and neuroglia<br><strong>Explanation:</strong> Neurons transmit electrical signals, while neuroglia support and protect neurons in nervous tissue.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. What type of connective tissue stores calcium and provides structural support?</p>
+    <ul>
+        <li>A) Cartilage</li>
+        <li>B) Bone</li>
+        <li>C) Adipose Tissue</li>
+        <li>D) Loose Areolar Tissue</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: B) Bone<br><strong>Explanation:</strong> Bone tissue stores calcium and phosphate and provides a rigid structure for the body.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. What is the function of intercalated discs in cardiac muscle tissue?</p>
+    <ul>
+        <li>A) Allowing voluntary control</li>
+        <li>B) Facilitating electrical and mechanical connection</li>
+        <li>C) Storing glycogen</li>
+        <li>D) Absorbing shock</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: B) Facilitating electrical and mechanical connection<br><strong>Explanation:</strong> Intercalated discs in cardiac muscle tissue allow synchronized contraction through gap junctions and desmosomes.</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. What is the main characteristic of simple squamous epithelium?</p>
+    <ul>
+        <li>A) Protection against abrasion</li>
+        <li>B) Rapid diffusion and filtration</li>
+        <li>C) Stretching and recoiling</li>
+        <li>D) Secretion of mucus</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: B) Rapid diffusion and filtration<br><strong>Explanation:</strong> Simple squamous epithelium is thin, allowing efficient diffusion and filtration in areas like the lungs and blood vessels.</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question-container">
+    <p class="question">26. What is the primary role of goblet cells in epithelial tissue?</p>
+    <ul>
+        <li>A) Absorbing nutrients</li>
+        <li>B) Producing mucus</li>
+        <li>C) Protecting against pathogens</li>
+        <li>D) Facilitating gas exchange</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: B) Producing mucus<br><strong>Explanation:</strong> Goblet cells are specialized epithelial cells that produce mucus to trap particles and protect surfaces.</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question-container">
+    <p class="question">27. What type of connective tissue transports oxygen and nutrients throughout the body?</p>
+    <ul>
+        <li>A) Bone</li>
+        <li>B) Blood</li>
+        <li>C) Cartilage</li>
+        <li>D) Dense Regular</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: B) Blood<br><strong>Explanation:</strong> Blood is a fluid connective tissue that transports oxygen, nutrients, and waste products throughout the body.</div>
+</div>
+
+<!-- Question 28 -->
+<div class="question-container">
+    <p class="question">28. Which epithelial tissue forms the outer layer of skin?</p>
+    <ul>
+        <li>A) Simple Squamous</li>
+        <li>B) Stratified Squamous</li>
+        <li>C) Transitional</li>
+        <li>D) Simple Cuboidal</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: B) Stratified Squamous<br><strong>Explanation:</strong> Stratified squamous epithelium provides protection and forms the epidermis, the outer layer of skin.</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question-container">
+    <p class="question">29. What type of cartilage provides flexibility and support in the trachea and nose?</p>
+    <ul>
+        <li>A) Elastic Cartilage</li>
+        <li>B) Hyaline Cartilage</li>
+        <li>C) Fibrocartilage</li>
+        <li>D) Dense Regular</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: B) Hyaline Cartilage<br><strong>Explanation:</strong> Hyaline cartilage provides flexibility and support in structures like the trachea and nose.</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question-container">
+    <p class="question">30. Which muscle tissue type has no striations and is found in the walls of hollow organs?</p>
+    <ul>
+        <li>A) Skeletal Muscle</li>
+        <li>B) Smooth Muscle</li>
+        <li>C) Cardiac Muscle</li>
+        <li>D) Nervous Tissue</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: B) Smooth Muscle<br><strong>Explanation:</strong> Smooth muscle is non-striated, involuntary muscle found in the walls of hollow organs like the stomach and blood vessels.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
