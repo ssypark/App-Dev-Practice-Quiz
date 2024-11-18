@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 4: Tissue Level of Organization Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            font-size: 1em;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .show-answer:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Topic 4: Tissue Level of Organization Quiz</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. Which of the following is NOT a major type of tissue?</p>
+    <ul>
+        <li>A) Muscular</li>
+        <li>B) Nervous</li>
+        <li>C) Cartilaginous</li>
+        <li>D) Connective</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: C) Cartilaginous<br><strong>Explanation:</strong> Cartilage is a type of connective tissue, not a primary tissue type. The four primary tissues are epithelial, connective, muscular, and nervous.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. True or False: Epithelial tissue is avascular.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: A) True<br><strong>Explanation:</strong> Epithelial tissue lacks blood vessels and relies on diffusion from underlying tissues for nutrients.</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. Which connective tissue provides flexible support in the external ear?</p>
+    <ul>
+        <li>A) Hyaline Cartilage</li>
+        <li>B) Elastic Cartilage</li>
+        <li>C) Fibrocartilage</li>
+        <li>D) Dense Regular Connective Tissue</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: B) Elastic Cartilage<br><strong>Explanation:</strong> Elastic cartilage provides flexibility and maintains the shape of structures like the external ear and epiglottis.</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. Which of the following are functions of connective tissue? (Select all that apply)</p>
+    <ul>
+        <li>A) Protection</li>
+        <li>B) Energy Storage</li>
+        <li>C) Absorption</li>
+        <li>D) Support</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: A, B, D<br><strong>Explanation:</strong> Connective tissue provides protection (e.g., bone), stores energy (e.g., adipose tissue), and offers structural support (e.g., cartilage and bone).</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. True or False: Skeletal muscle is striated and under voluntary control.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: A) True<br><strong>Explanation:</strong> Skeletal muscle is striated and contracts under conscious control to produce movement.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. What is the main function of nervous tissue?</p>
+    <ul>
+        <li>A) Providing structural support</li>
+        <li>B) Conducting electrical impulses</li>
+        <li>C) Storing energy</li>
+        <li>D) Absorbing nutrients</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: B) Conducting electrical impulses<br><strong>Explanation:</strong> Nervous tissue consists of neurons that generate and transmit electrical signals to control bodily functions.</div>
+</div>
+
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. True or False: Cardiac muscle is striated and contracts voluntarily.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: B) False<br><strong>Explanation:</strong> Cardiac muscle is striated but contracts involuntarily, as it is controlled by the autonomic nervous system.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. Which type of epithelial tissue is best suited for rapid diffusion and filtration?</p>
+    <ul>
+        <li>A) Simple Squamous</li>
+        <li>B) Stratified Squamous</li>
+        <li>C) Simple Cuboidal</li>
+        <li>D) Transitional</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: A) Simple Squamous<br><strong>Explanation:</strong> Simple squamous epithelium is thin, making it ideal for rapid diffusion and filtration, such as in the alveoli of the lungs.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. Which of the following are characteristics of connective tissue? (Select all that apply)</p>
+    <ul>
+        <li>A) Contains extracellular matrix</li>
+        <li>B) Avascular</li>
+        <li>C) Provides structural support</li>
+        <li>D) High regeneration capacity</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: A, C<br><strong>Explanation:</strong> Connective tissue has an extracellular matrix and provides structural support. It may or may not be vascular, and its regenerative capacity varies.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. True or False: Smooth muscle lacks striations and is found in the walls of hollow organs.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: A) True<br><strong>Explanation:</strong> Smooth muscle is non-striated and contracts involuntarily to control movements in hollow organs like the stomach and intestines.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. Which connective tissue type stores energy and provides insulation?</p>
+    <ul>
+        <li>A) Loose Areolar</li>
+        <li>B) Adipose Tissue</li>
+        <li>C) Dense Regular</li>
+        <li>D) Fibrocartilage</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: B) Adipose Tissue<br><strong>Explanation:</strong> Adipose tissue stores fat for energy, provides insulation, and cushions organs.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. Which of the following are functions of epithelial tissue? (Select all that apply)</p>
+    <ul>
+        <li>A) Protection</li>
+        <li>B) Absorption</li>
+        <li>C) Secretion</li>
+        <li>D) Conducting electrical impulses</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: A, B, C<br><strong>Explanation:</strong> Epithelial tissue serves functions such as protection, absorption, and secretion. Conducting electrical impulses is a function of nervous tissue.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. True or False: Cartilage is a vascular connective tissue.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: B) False<br><strong>Explanation:</strong> Cartilage is avascular, meaning it lacks blood vessels and receives nutrients through diffusion.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. Which type of connective tissue forms the intervertebral discs?</p>
+    <ul>
+        <li>A) Hyaline Cartilage</li>
+        <li>B) Elastic Cartilage</li>
+        <li>C) Fibrocartilage</li>
+        <li>D) Loose Areolar</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: C) Fibrocartilage<br><strong>Explanation:</strong> Fibrocartilage provides strong support and absorbs compressive forces in intervertebral discs.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. Which tissue type contains goblet cells that secrete mucus?</p>
+    <ul>
+        <li>A) Simple Cuboidal Epithelium</li>
+        <li>B) Pseudostratified Columnar Epithelium</li>
+        <li>C) Simple Squamous Epithelium</li>
+        <li>D) Transitional Epithelium</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: B) Pseudostratified Columnar Epithelium<br><strong>Explanation:</strong> Pseudostratified columnar epithelium often contains goblet cells that secrete mucus to trap particles and protect surfaces.</div>
+</div>
+
+<!-- Questions 16–30 -->
+<!-- Continue with this structure -->
