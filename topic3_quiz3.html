@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 3: Cellular Level of Organization Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            font-size: 1em;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .show-answer:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Topic 3: Cellular Level of Organization Quiz</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. What is the primary function of the plasma membrane?</p>
+    <ul>
+        <li>A) Storing genetic information</li>
+        <li>B) Controlling what enters and exits the cell</li>
+        <li>C) Synthesizing proteins</li>
+        <li>D) Generating ATP</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: B) Controlling what enters and exits the cell<br><strong>Explanation:</strong> The plasma membrane acts as a selective barrier, regulating the passage of substances in and out of the cell.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. True or False: The nucleus is the control center of the cell.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: A) True<br><strong>Explanation:</strong> The nucleus contains genetic material (DNA) and directs cellular activities, functioning as the cell's control center.</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. Which of the following are components of the cytoskeleton? (Select all that apply)</p>
+    <ul>
+        <li>A) Microtubules</li>
+        <li>B) Intermediate filaments</li>
+        <li>C) Actin filaments</li>
+        <li>D) Lysosomes</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: A, B, C<br><strong>Explanation:</strong> The cytoskeleton is made of microtubules, intermediate filaments, and actin filaments, providing structure and support. Lysosomes are not part of the cytoskeleton.</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. What is the role of mitochondria in the cell?</p>
+    <ul>
+        <li>A) Synthesizing proteins</li>
+        <li>B) Producing energy in the form of ATP</li>
+        <li>C) Breaking down waste materials</li>
+        <li>D) Packaging and transporting proteins</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: B) Producing energy in the form of ATP<br><strong>Explanation:</strong> Mitochondria are known as the "powerhouses" of the cell because they produce ATP through cellular respiration.</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. True or False: Ribosomes are responsible for protein synthesis.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: A) True<br><strong>Explanation:</strong> Ribosomes are cellular structures that assemble amino acids into proteins based on instructions from mRNA.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. Which organelle modifies, packages, and ships proteins?</p>
+    <ul>
+        <li>A) Endoplasmic reticulum</li>
+        <li>B) Golgi apparatus</li>
+        <li>C) Lysosome</li>
+        <li>D) Nucleus</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: B) Golgi apparatus<br><strong>Explanation:</strong> The Golgi apparatus modifies, packages, and ships proteins to their destination within or outside the cell.</div>
+</div>
+
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. True or False: The rough endoplasmic reticulum (ER) is involved in lipid synthesis.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: B) False<br><strong>Explanation:</strong> The rough ER, studded with ribosomes, synthesizes proteins, while the smooth ER is involved in lipid synthesis and detoxification.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. Which type of transport requires energy (ATP)?</p>
+    <ul>
+        <li>A) Simple diffusion</li>
+        <li>B) Osmosis</li>
+        <li>C) Facilitated diffusion</li>
+        <li>D) Active transport</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: D) Active transport<br><strong>Explanation:</strong> Active transport requires energy to move substances against their concentration gradient.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. True or False: The cytoplasm includes all the contents within the plasma membrane except the nucleus.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: A) True<br><strong>Explanation:</strong> The cytoplasm contains the cytosol and organelles, excluding the nucleus.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. Which of the following are passive transport mechanisms? (Select all that apply)</p>
+    <ul>
+        <li>A) Simple diffusion</li>
+        <li>B) Facilitated diffusion</li>
+        <li>C) Osmosis</li>
+        <li>D) Endocytosis</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: A, B, C<br><strong>Explanation:</strong> Simple diffusion, facilitated diffusion, and osmosis are passive processes that do not require energy. Endocytosis is an active process.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. What is the primary function of lysosomes?</p>
+    <ul>
+        <li>A) Synthesizing proteins</li>
+        <li>B) Producing ATP</li>
+        <li>C) Digesting waste and foreign materials</li>
+        <li>D) Storing genetic information</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: C) Digesting waste and foreign materials<br><strong>Explanation:</strong> Lysosomes contain enzymes that break down waste and harmful substances in the cell.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. True or False: Peroxisomes are involved in the detoxification of harmful substances.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: A) True<br><strong>Explanation:</strong> Peroxisomes break down harmful substances like hydrogen peroxide and detoxify compounds such as alcohol.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. Which organelle is responsible for producing ribosomes?</p>
+    <ul>
+        <li>A) Golgi apparatus</li>
+        <li>B) Rough ER</li>
+        <li>C) Nucleolus</li>
+        <li>D) Mitochondria</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: C) Nucleolus<br><strong>Explanation:</strong> The nucleolus, located inside the nucleus, is responsible for synthesizing ribosomes.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. Which of the following are functions of the smooth endoplasmic reticulum? (Select all that apply)</p>
+    <ul>
+        <li>A) Synthesizing lipids</li>
+        <li>B) Detoxifying drugs</li>
+        <li>C) Storing calcium</li>
+        <li>D) Producing ATP</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: A, B, C<br><strong>Explanation:</strong> The smooth ER synthesizes lipids, detoxifies drugs, and stores calcium. ATP is produced by mitochondria.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. True or False: Chromosomes are composed of DNA and proteins.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: A) True<br><strong>Explanation:</strong> Chromosomes are made of DNA tightly wound around histone proteins, forming chromatin.</div>
+</div>
+
+<!-- Continue for Questions 16–30 -->
