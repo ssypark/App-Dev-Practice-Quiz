@@ -274,5 +274,202 @@
     <div id="answer15" class="answer">Answer: B) Pseudostratified Columnar Epithelium<br><strong>Explanation:</strong> Pseudostratified columnar epithelium often contains goblet cells that secrete mucus to trap particles and protect surfaces.</div>
 </div>
 
-<!-- Questions 16–30 -->
-<!-- Continue with this structure -->
+
+<!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. True or False: Reticular connective tissue forms the framework for organs such as the spleen and lymph nodes.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: A) True<br><strong>Explanation:</strong> Reticular connective tissue provides structural support to soft organs like the spleen and lymph nodes.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. Which of the following epithelial tissues is found in the urinary bladder and allows for stretching?</p>
+    <ul>
+        <li>A) Simple Squamous</li>
+        <li>B) Transitional</li>
+        <li>C) Stratified Cuboidal</li>
+        <li>D) Pseudostratified Columnar</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: B) Transitional<br><strong>Explanation:</strong> Transitional epithelium is specialized for stretching and recoiling, making it ideal for the urinary bladder.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. Which connective tissue contains a fluid matrix called plasma?</p>
+    <ul>
+        <li>A) Bone</li>
+        <li>B) Blood</li>
+        <li>C) Cartilage</li>
+        <li>D) Loose Areolar</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: B) Blood<br><strong>Explanation:</strong> Blood is a connective tissue with a fluid matrix (plasma) that transports nutrients, oxygen, and waste.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. True or False: Skeletal muscle fibers are multinucleated.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: A) True<br><strong>Explanation:</strong> Skeletal muscle fibers are long and multinucleated, allowing for efficient protein synthesis and contraction.</div>
+</div>
+
+<!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. Which of the following are characteristics of cardiac muscle? (Select all that apply)</p>
+    <ul>
+        <li>A) Striated</li>
+        <li>B) Multinucleated</li>
+        <li>C) Involuntary</li>
+        <li>D) Contains intercalated discs</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: A, C, D<br><strong>Explanation:</strong> Cardiac muscle is striated, contracts involuntarily, and contains intercalated discs for synchronized contraction. It is typically uninucleated.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. True or False: Simple cuboidal epithelium is primarily involved in secretion and absorption.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: A) True<br><strong>Explanation:</strong> Simple cuboidal epithelium is found in glands and kidney tubules, specializing in secretion and absorption.</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. Which connective tissue type resists compression and is found in the knee and intervertebral discs?</p>
+    <ul>
+        <li>A) Hyaline Cartilage</li>
+        <li>B) Elastic Cartilage</li>
+        <li>C) Fibrocartilage</li>
+        <li>D) Dense Regular Connective Tissue</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: C) Fibrocartilage<br><strong>Explanation:</strong> Fibrocartilage resists compression and provides strong support in high-stress areas like intervertebral discs and knees.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. True or False: Epithelial tissue has a high regeneration capacity.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: A) True<br><strong>Explanation:</strong> Epithelial tissue regenerates rapidly due to its proximity to the vascular connective tissue below.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. What is the function of gap junctions in cardiac muscle?</p>
+    <ul>
+        <li>A) Prevent leakage between cells</li>
+        <li>B) Allow ions to flow between cells for synchronized contraction</li>
+        <li>C) Provide structural support</li>
+        <li>D) Transport oxygen</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: B) Allow ions to flow between cells for synchronized contraction<br><strong>Explanation:</strong> Gap junctions facilitate ion flow, enabling synchronized contraction of cardiac muscle.</div>
+</div>
+
+<!-- Question 25 -->
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. Which type of epithelial tissue lines the digestive tract and may contain goblet cells?</p>
+    <ul>
+        <li>A) Simple Columnar</li>
+        <li>B) Simple Squamous</li>
+        <li>C) Transitional</li>
+        <li>D) Stratified Cuboidal</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: A) Simple Columnar<br><strong>Explanation:</strong> Simple columnar epithelium lines the digestive tract and often contains goblet cells for mucus secretion.</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question-container">
+    <p class="question">26. True or False: Bone tissue is highly vascularized.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: A) True<br><strong>Explanation:</strong> Bone tissue is highly vascularized, allowing it to heal faster than avascular tissues like cartilage.</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question-container">
+    <p class="question">27. Which of the following are functions of adipose tissue? (Select all that apply)</p>
+    <ul>
+        <li>A) Energy storage</li>
+        <li>B) Protection</li>
+        <li>C) Insulation</li>
+        <li>D) Transporting oxygen</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: A, B, C<br><strong>Explanation:</strong> Adipose tissue stores energy, provides cushioning for organs, and insulates the body against heat loss.</div>
+</div>
+
+<!-- Question 28 -->
+<div class="question-container">
+    <p class="question">28. Which epithelial tissue is found in areas subjected to friction, such as the skin and esophagus?</p>
+    <ul>
+        <li>A) Simple Squamous</li>
+        <li>B) Simple Cuboidal</li>
+        <li>C) Stratified Squamous</li>
+        <li>D) Transitional</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: C) Stratified Squamous<br><strong>Explanation:</strong> Stratified squamous epithelium provides protection against abrasion in areas like the epidermis and esophagus.</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question-container">
+    <p class="question">29. True or False: The extracellular matrix of connective tissue is made of fibers and ground substance.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: A) True<br><strong>Explanation:</strong> The extracellular matrix of connective tissue consists of protein fibers (e.g., collagen) and a ground substance that provides structural and functional support.</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question-container">
+    <p class="question">30. Which of the following are types of muscle tissue? (Select all that apply)</p>
+    <ul>
+        <li>A) Skeletal</li>
+        <li>B) Smooth</li>
+        <li>C) Cardiac</li>
+        <li>D) Elastic</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: A, B, C<br><strong>Explanation:</strong> The three types of muscle tissue are skeletal, smooth, and cardiac. Elastic is not a type of muscle tissue; it refers to connective tissue fibers.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
