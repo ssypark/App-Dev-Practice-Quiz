@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 2: Chemical Level of Organization Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            font-size: 1em;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .show-answer:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+            font-size: 1em;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Topic 2: Chemical Level of Organization Quiz</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. What is the basic unit of matter?</p>
+    <ul>
+        <li>A) Molecule</li>
+        <li>B) Atom</li>
+        <li>C) Proton</li>
+        <li>D) Electron</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: B) Atom<br><strong>Explanation:</strong> The atom is the fundamental unit of matter, consisting of protons, neutrons, and electrons.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. True or False: Protons have a negative charge.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: B) False<br><strong>Explanation:</strong> Protons carry a positive charge, while electrons are negatively charged.</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. Which of the following are macromolecules? (Select all that apply)</p>
+    <ul>
+        <li>A) Proteins</li>
+        <li>B) Lipids</li>
+        <li>C) Water</li>
+        <li>D) Carbohydrates</li>
+        <li>E) Nucleic acids</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: A, B, D, E<br><strong>Explanation:</strong> Proteins, lipids, carbohydrates, and nucleic acids are macromolecules. Water is not a macromolecule.</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. Which subatomic particle determines the identity of an element?</p>
+    <ul>
+        <li>A) Proton</li>
+        <li>B) Neutron</li>
+        <li>C) Electron</li>
+        <li>D) Positron</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: A) Proton<br><strong>Explanation:</strong> The number of protons, or atomic number, determines the identity of an element.</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. True or False: Ionic bonds are formed when atoms share electrons equally.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: B) False<br><strong>Explanation:</strong> Ionic bonds form when one atom transfers electrons to another, while covalent bonds involve sharing electrons.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. Which of the following are functions of proteins? (Select all that apply)</p>
+    <ul>
+        <li>A) Providing energy</li>
+        <li>B) Acting as enzymes</li>
+        <li>C) Transporting molecules</li>
+        <li>D) Storing genetic information</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: A, B, C<br><strong>Explanation:</strong> Proteins provide energy, act as enzymes, and transport molecules. Storing genetic information is a function of nucleic acids.</div>
+</div>
+
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. What type of bond forms between water molecules?</p>
+    <ul>
+        <li>A) Ionic bonds</li>
+        <li>B) Covalent bonds</li>
+        <li>C) Hydrogen bonds</li>
+        <li>D) Metallic bonds</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: C) Hydrogen bonds<br><strong>Explanation:</strong> Hydrogen bonds form between the slightly positive hydrogen atom of one water molecule and the slightly negative oxygen atom of another.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. True or False: Lipids are hydrophilic and dissolve easily in water.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: B) False<br><strong>Explanation:</strong> Lipids are hydrophobic, meaning they repel water and do not dissolve easily in it.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. Which macromolecule is primarily responsible for storing genetic information?</p>
+    <ul>
+        <li>A) Proteins</li>
+        <li>B) Lipids</li>
+        <li>C) Nucleic acids</li>
+        <li>D) Carbohydrates</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: C) Nucleic acids<br><strong>Explanation:</strong> Nucleic acids like DNA and RNA store and transmit genetic information.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. Which of the following are characteristics of water? (Select all that apply)</p>
+    <ul>
+        <li>A) High heat capacity</li>
+        <li>B) Universal solvent</li>
+        <li>C) Nonpolar</li>
+        <li>D) Cohesion and adhesion</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: A, B, D<br><strong>Explanation:</strong> Water has a high heat capacity, acts as a universal solvent, and exhibits cohesion and adhesion due to hydrogen bonding. It is polar, not nonpolar.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. True or False: Enzymes speed up chemical reactions by lowering activation energy.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: A) True<br><strong>Explanation:</strong> Enzymes are biological catalysts that reduce the activation energy needed for reactions, increasing their speed.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. Which of the following are functions of carbohydrates? (Select all that apply)</p>
+    <ul>
+        <li>A) Energy storage</li>
+        <li>B) Structural support</li>
+        <li>C) Catalysis of reactions</li>
+        <li>D) Cell signaling</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: A, B, D<br><strong>Explanation:</strong> Carbohydrates store energy, provide structural support (e.g., cellulose), and participate in cell signaling. Catalysis is a function of proteins.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. True or False: DNA and RNA are both double-stranded molecules.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: B) False<br><strong>Explanation:</strong> DNA is double-stranded, while RNA is single-stranded.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. What is the primary function of ATP (adenosine triphosphate) in cells?</p>
+    <ul>
+        <li>A) Providing structural support</li>
+        <li>B) Storing genetic information</li>
+        <li>C) Catalyzing reactions</li>
+        <li>D) Providing energy</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: D) Providing energy<br><strong>Explanation:</strong> ATP is the primary energy currency of the cell, powering various cellular processes.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. True or False: Lipids are the primary component of cell membranes.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: A) True<br><strong>Explanation:</strong> Phospholipids, a type of lipid, form the bilayer of cell membranes, providing structure and regulating permeability.</div>
+</div>
+
+  <!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. Which type of lipid is the primary component of cell membranes?</p>
+    <ul>
+        <li>A) Triglycerides</li>
+        <li>B) Phospholipids</li>
+        <li>C) Steroids</li>
+        <li>D) Saturated fats</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: B) Phospholipids<br><strong>Explanation:</strong> Phospholipids form the bilayer of cell membranes, with hydrophilic heads and hydrophobic tails.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. True or False: A dehydration synthesis reaction removes water to form bonds between molecules.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: A) True<br><strong>Explanation:</strong> In dehydration synthesis, water is removed to form covalent bonds between monomers, creating polymers.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. Which of the following are examples of nucleotides? (Select all that apply)</p>
+    <ul>
+        <li>A) ATP</li>
+        <li>B) DNA</li>
+        <li>C) RNA</li>
+        <li>D) GTP</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: A, D<br><strong>Explanation:</strong> ATP (adenosine triphosphate) and GTP (guanosine triphosphate) are nucleotides. DNA and RNA are nucleic acids made of nucleotides.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. True or False: Proteins are composed of amino acids joined by peptide bonds.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: A) True<br><strong>Explanation:</strong> Proteins are polymers of amino acids linked by peptide bonds, forming polypeptides.</div>
+</div>
+
+<!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. Which of the following are characteristics of enzymes? (Select all that apply)</p>
+    <ul>
+        <li>A) Speed up chemical reactions</li>
+        <li>B) Are consumed in reactions</li>
+        <li>C) Lower activation energy</li>
+        <li>D) Have specific active sites</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: A, C, D<br><strong>Explanation:</strong> Enzymes act as biological catalysts by lowering activation energy and are not consumed in reactions. They have specific active sites for substrates.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. True or False: Covalent bonds are stronger than hydrogen bonds.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: A) True<br><strong>Explanation:</strong> Covalent bonds involve the sharing of electrons and are stronger than hydrogen bonds, which are weaker attractions between molecules.</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. Which of the following are roles of water in the body? (Select all that apply)</p>
+    <ul>
+        <li>A) Solvent for chemical reactions</li>
+        <li>B) Temperature regulation</li>
+        <li>C) Providing energy</li>
+        <li>D) Lubrication for joints</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: A, B, D<br><strong>Explanation:</strong> Water acts as a solvent, regulates temperature, and lubricates joints. It does not provide energy.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. True or False: A hydrolysis reaction uses water to break bonds in polymers.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: A) True<br><strong>Explanation:</strong> Hydrolysis reactions involve the addition of water to break covalent bonds, splitting polymers into monomers.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. Which macromolecule stores the most energy per gram?</p>
+    <ul>
+        <li>A) Carbohydrates</li>
+        <li>B) Proteins</li>
+        <li>C) Lipids</li>
+        <li>D) Nucleic acids</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: C) Lipids<br><strong>Explanation:</strong> Lipids, such as fats, store more energy per gram than carbohydrates or proteins.</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. True or False: Buffer systems help maintain pH balance in the body.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: A) True<br><strong>Explanation:</strong> Buffers resist changes in pH by neutralizing excess acids or bases, helping to maintain homeostasis.</div>
+</div>
+
+<!-- Questions 26–30 -->
+<div class="question-container">
+    <p class="question">26. What type of reaction combines smaller molecules into larger ones?</p>
+    <ul>
+        <li>A) Hydrolysis</li>
+        <li>B) Catabolic reaction</li>
+        <li>C) Dehydration synthesis</li>
+        <li>D) Exothermic reaction</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: C) Dehydration synthesis<br><strong>Explanation:</strong> Dehydration synthesis combines smaller molecules into larger ones by removing water molecules.</div>
+</div>
+
+<div class="question-container">
+    <p class="question">27. Which macromolecule forms the genetic blueprint of life?</p>
+    <ul>
+        <li>A) Protein</li>
+        <li>B) DNA</li>
+        <li>C) Lipid</li>
+        <li>D) Carbohydrate</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: B) DNA<br><strong>Explanation:</strong> DNA (deoxyribonucleic acid) carries genetic instructions for the development and function of living organisms.</div>
+</div>
+
+<div class="question-container">
+    <p class="question">28. True or False: Saturated fats have double bonds in their fatty acid chains.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: B) False<br><strong>Explanation:</strong> Saturated fats lack double bonds, while unsaturated fats contain one or more double bonds.</div>
+</div>
+
+<div class="question-container">
+    <p class="question">29. Which of the following are examples of polysaccharides? (Select all that apply)</p>
+    <ul>
+        <li>A) Starch</li>
+        <li>B) Glycogen</li>
+        <li>C) Glucose</li>
+        <li>D) Cellulose</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: A, B, D<br><strong>Explanation:</strong> Starch, glycogen, and cellulose are polysaccharides. Glucose is a monosaccharide.</div>
+</div>
+
+<div class="question-container">
+    <p class="question">30. True or False: An acid is a substance that donates protons (H+) in a solution.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: A) True<br><strong>Explanation:</strong> Acids increase the concentration of H+ ions in a solution, lowering the pH.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
