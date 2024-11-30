@@ -1,1 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 7: Muscular Tissue Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('biology-pattern.png');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
 
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .show-answer:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Topic 7: Muscular Tissue Quiz</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. What are the four properties of muscle tissue?</p>
+    <ul>
+        <li>A) Excitability, Contractility, Extensibility, Elasticity</li>
+        <li>B) Strength, Flexibility, Durability, Elasticity</li>
+        <li>C) Extensibility, Excitability, Flexibility, Durability</li>
+        <li>D) Elasticity, Strength, Extensibility, Flexibility</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: A) Excitability, Contractility, Extensibility, Elasticity<br><strong>Explanation:</strong> These are the defining properties that allow muscles to respond, contract, stretch, and return to their original length.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. True or False: Myofibrils extend the entire length of a muscle fiber.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: A) True<br><strong>Explanation:</strong> Myofibrils are thread-like structures that run the length of the muscle fiber, containing the contractile units (sarcomeres).</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. What are the two types of microfilaments within myofibrils?</p>
+    <ul>
+        <li>A) Actin and Myosin</li>
+        <li>B) Actin and Tropomyosin</li>
+        <li>C) Myosin and Troponin</li>
+        <li>D) Tropomyosin and Troponin</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: A) Actin and Myosin<br><strong>Explanation:</strong> Actin (thin filament) and Myosin (thick filament) interact to facilitate muscle contraction.</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. Which connective tissue layer surrounds a muscle fiber?</p>
+    <ul>
+        <li>A) Epimysium</li>
+        <li>B) Perimysium</li>
+        <li>C) Endomysium</li>
+        <li>D) Sarcolemma</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: C) Endomysium<br><strong>Explanation:</strong> The endomysium is a thin layer of connective tissue that wraps around each individual muscle fiber.</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. True or False: A tendon connects a muscle to a bone.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: A) True<br><strong>Explanation:</strong> Tendons are strong bands of connective tissue that connect muscles to bones.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. Which type of respiration produces the most ATP?</p>
+    <ul>
+        <li>A) Anaerobic respiration</li>
+        <li>B) Aerobic respiration</li>
+        <li>C) Glycolysis</li>
+        <li>D) Fermentation</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: B) Aerobic respiration<br><strong>Explanation:</strong> Aerobic respiration requires oxygen and produces up to 38 ATP per glucose molecule, making it more efficient than anaerobic processes.</div>
+</div>
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. Which ion is essential for muscle contraction?</p>
+    <ul>
+        <li>A) Sodium (Na+)</li>
+        <li>B) Calcium (Ca2+)</li>
+        <li>C) Potassium (K+)</li>
+        <li>D) Magnesium (Mg2+)</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: B) Calcium (Ca2+)<br><strong>Explanation:</strong> Calcium ions are released from the sarcoplasmic reticulum and bind to troponin, initiating muscle contraction.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. True or False: The sarcomere is the smallest functional unit of a muscle fiber.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: A) True<br><strong>Explanation:</strong> The sarcomere is the repeating structural and functional unit within a myofibril, crucial for muscle contraction.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. Which of the following are phases of a muscle twitch? (Select all that apply)</p>
+    <ul>
+        <li>A) Latent period</li>
+        <li>B) Contraction period</li>
+        <li>C) Relaxation period</li>
+        <li>D) Recovery period</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: A, B, C<br><strong>Explanation:</strong> The phases of a muscle twitch are the latent period (delay before contraction), contraction period, and relaxation period.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. What is the role of ATP in muscle contraction?</p>
+    <ul>
+        <li>A) Powers the detachment of myosin heads</li>
+        <li>B) Allows calcium release from the sarcoplasmic reticulum</li>
+        <li>C) Both A and B</li>
+        <li>D) None of the above</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: C) Both A and B<br><strong>Explanation:</strong> ATP is crucial for detaching myosin heads from actin and powering the calcium pump to restore ion concentrations.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. True or False: Smooth muscle fibers are striated.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: B) False<br><strong>Explanation:</strong> Smooth muscle fibers lack striations and have a spindle-shaped appearance, unlike skeletal and cardiac muscle.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. Which type of muscle is involuntary and found in the walls of hollow organs?</p>
+    <ul>
+        <li>A) Skeletal muscle</li>
+        <li>B) Cardiac muscle</li>
+        <li>C) Smooth muscle</li>
+        <li>D) All of the above</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: C) Smooth muscle<br><strong>Explanation:</strong> Smooth muscle is involuntary and lines the walls of hollow organs such as blood vessels and the digestive tract.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. True or False: Cardiac muscle fibers are connected by intercalated discs.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: A) True<br><strong>Explanation:</strong> Intercalated discs are specialized connections between cardiac muscle cells that allow for synchronized contraction.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. Which of the following proteins regulate muscle contraction? (Select all that apply)</p>
+    <ul>
+        <li>A) Troponin</li>
+        <li>B) Tropomyosin</li>
+        <li>C) Actin</li>
+        <li>D) Myosin</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: A, B<br><strong>Explanation:</strong> Troponin and tropomyosin regulate muscle contraction by controlling the interaction of actin and myosin.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. True or False: Fast glycolytic fibers fatigue more quickly than slow oxidative fibers.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: A) True<br><strong>Explanation:</strong> Fast glycolytic fibers generate rapid, powerful contractions but fatigue quickly compared to slow oxidative fibers.</div>
+</div>
+
+<!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. What is the role of the sarcoplasmic reticulum in muscle contraction?</p>
+    <ul>
+        <li>A) Storing oxygen</li>
+        <li>B) Producing ATP</li>
+        <li>C) Storing and releasing calcium ions</li>
+        <li>D) Breaking down acetylcholine</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: C) Storing and releasing calcium ions<br><strong>Explanation:</strong> The sarcoplasmic reticulum stores calcium ions and releases them during muscle contraction to initiate the interaction of actin and myosin.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. True or False: Skeletal muscle fibers are multinucleated.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: A) True<br><strong>Explanation:</strong> Skeletal muscle fibers are long, cylindrical, and multinucleated, allowing them to support their extensive protein synthesis requirements.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. Which type of muscle fiber is best suited for endurance activities?</p>
+    <ul>
+        <li>A) Fast oxidative fibers</li>
+        <li>B) Fast glycolytic fibers</li>
+        <li>C) Slow oxidative fibers</li>
+        <li>D) Intermediate fibers</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: C) Slow oxidative fibers<br><strong>Explanation:</strong> Slow oxidative fibers rely on aerobic respiration, resist fatigue, and are best suited for endurance activities like long-distance running.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. True or False: The Z-line defines the boundary of a sarcomere.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: A) True<br><strong>Explanation:</strong> The Z-line anchors thin filaments and defines the boundaries of a sarcomere, the functional unit of a myofibril.</div>
+</div>
+
+<!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. Which neurotransmitter is involved in skeletal muscle contraction?</p>
+    <ul>
+        <li>A) Dopamine</li>
+        <li>B) Acetylcholine</li>
+        <li>C) Serotonin</li>
+        <li>D) Glutamate</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: B) Acetylcholine<br><strong>Explanation:</strong> Acetylcholine is released at neuromuscular junctions, triggering muscle contraction by depolarizing the muscle fiber membrane.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. True or False: The H-zone contains only thick filaments.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: A) True<br><strong>Explanation:</strong> The H-zone is the central part of a sarcomere that contains only thick filaments (myosin) and disappears during complete contraction.</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. Which of the following are characteristics of cardiac muscle fibers? (Select all that apply)</p>
+    <ul>
+        <li>A) Striated</li>
+        <li>B) Multinucleated</li>
+        <li>C) Intercalated discs</li>
+        <li>D) Involuntary</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: A, C, D<br><strong>Explanation:</strong> Cardiac muscle fibers are striated, contain intercalated discs for synchronized contraction, and are involuntary. They are not multinucleated.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. True or False: Muscle fatigue occurs when ATP supply exceeds demand.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: B) False<br><strong>Explanation:</strong> Muscle fatigue occurs when ATP demand exceeds supply, leading to the accumulation of metabolic byproducts like lactic acid.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. What is the primary function of myoglobin in muscle fibers?</p>
+    <ul>
+        <li>A) Transporting calcium ions</li>
+        <li>B) Binding and storing oxygen</li>
+        <li>C) Breaking down glycogen</li>
+        <li>D) Generating ATP</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: B) Binding and storing oxygen<br><strong>Explanation:</strong> Myoglobin stores oxygen within muscle fibers, providing a ready supply for aerobic respiration.</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. True or False: Muscle hypertrophy results from an increase in the number of muscle fibers.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: B) False<br><strong>Explanation:</strong> Muscle hypertrophy occurs due to an increase in the size of muscle fibers, not their number.</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question-container">
+    <p class="question">26. Which structure conducts action potentials into the muscle fiber?</p>
+    <ul>
+        <li>A) Sarcolemma</li>
+        <li>B) T-tubules</li>
+        <li>C) Sarcomere</li>
+        <li>D) Endomysium</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: B) T-tubules<br><strong>Explanation:</strong> T-tubules (transverse tubules) conduct action potentials deep into the muscle fiber to trigger calcium release.</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question-container">
+    <p class="question">27. True or False: A motor unit consists of a motor neuron and the muscle fibers it innervates.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: A) True<br><strong>Explanation:</strong> A motor unit includes a motor neuron and all the muscle fibers it controls, enabling coordinated contraction.</div>
+</div>
+
+<!-- Question 28 -->
+<div class="question-container">
+    <p class="question">28. Which term describes the increase in muscle tension without a change in length?</p>
+    <ul>
+        <li>A) Isotonic contraction</li>
+        <li>B) Isometric contraction</li>
+        <li>C) Concentric contraction</li>
+        <li>D) Eccentric contraction</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: B) Isometric contraction<br><strong>Explanation:</strong> In isometric contraction, the muscle generates tension without changing its length.</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question-container">
+    <p class="question">29. Which type of connective tissue surrounds fascicles?</p>
+    <ul>
+        <li>A) Epimysium</li>
+        <li>B) Perimysium</li>
+        <li>C) Endomysium</li>
+        <li>D) Sarcolemma</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: B) Perimysium<br><strong>Explanation:</strong> The perimysium is a layer of connective tissue that surrounds and separates fascicles (bundles of muscle fibers).</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question-container">
+    <p class="question">30. True or False: The I-band contains only thin filaments.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: A) True<br><strong>Explanation:</strong> The I-band contains only thin filaments (actin) and shortens during muscle contraction.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
