@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 8: Nervous Tissue Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('biology-pattern.png');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .show-answer:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Topic 8: Nervous Tissue Quiz</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. What are the two major divisions of the nervous system?</p>
+    <ul>
+        <li>A) Central and peripheral nervous systems</li>
+        <li>B) Somatic and autonomic nervous systems</li>
+        <li>C) Sensory and motor nervous systems</li>
+        <li>D) Sympathetic and parasympathetic nervous systems</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: A) Central and peripheral nervous systems<br><strong>Explanation:</strong> The central nervous system (CNS) consists of the brain and spinal cord, while the peripheral nervous system (PNS) includes all other neural structures.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. True or False: Neurons are the only type of cell found in nervous tissue.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: B) False<br><strong>Explanation:</strong> Nervous tissue contains neurons and neuroglia (supporting cells that provide structural and functional support to neurons).</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. What are the structural components of a neuron? (Select all that apply)</p>
+    <ul>
+        <li>A) Dendrites</li>
+        <li>B) Axon</li>
+        <li>C) Soma (cell body)</li>
+        <li>D) Myofibrils</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: A, B, C<br><strong>Explanation:</strong> A neuron consists of dendrites (receiving signals), an axon (transmitting signals), and the soma (cell body, containing the nucleus).</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. True or False: Myelin sheaths increase the speed of nerve impulse conduction.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: A) True<br><strong>Explanation:</strong> Myelin sheaths insulate axons and enable faster conduction of electrical impulses through saltatory conduction.</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. Which type of neuroglia is responsible for producing myelin in the CNS?</p>
+    <ul>
+        <li>A) Schwann cells</li>
+        <li>B) Oligodendrocytes</li>
+        <li>C) Astrocytes</li>
+        <li>D) Microglia</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: B) Oligodendrocytes<br><strong>Explanation:</strong> Oligodendrocytes produce myelin sheaths in the central nervous system, insulating multiple axons.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. What is the primary function of the axon in a neuron?</p>
+    <ul>
+        <li>A) Receiving signals from other neurons</li>
+        <li>B) Transmitting signals to other cells</li>
+        <li>C) Synthesizing neurotransmitters</li>
+        <li>D) Protecting the neuron</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: B) Transmitting signals to other cells<br><strong>Explanation:</strong> The axon transmits electrical impulses from the neuron to other cells, including other neurons, muscles, or glands.</div>
+</div>
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. True or False: Schwann cells produce myelin in the peripheral nervous system (PNS).</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: A) True<br><strong>Explanation:</strong> Schwann cells produce myelin sheaths in the PNS, which insulate individual axons and speed up nerve conduction.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. What is the name of the gaps in the myelin sheath along an axon?</p>
+    <ul>
+        <li>A) Synaptic clefts</li>
+        <li>B) Nodes of Ranvier</li>
+        <li>C) Dendritic spines</li>
+        <li>D) Axon terminals</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: B) Nodes of Ranvier<br><strong>Explanation:</strong> Nodes of Ranvier are small gaps between myelin segments that facilitate rapid nerve impulse conduction through saltatory conduction.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. Which type of neuroglia is involved in phagocytosis in the CNS?</p>
+    <ul>
+        <li>A) Astrocytes</li>
+        <li>B) Oligodendrocytes</li>
+        <li>C) Microglia</li>
+        <li>D) Ependymal cells</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: C) Microglia<br><strong>Explanation:</strong> Microglia act as the immune cells of the CNS, removing debris, pathogens, and damaged cells through phagocytosis.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. True or False: The resting membrane potential of a neuron is typically around -70 mV.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: A) True<br><strong>Explanation:</strong> The resting membrane potential of a neuron is approximately -70 mV, due to the difference in ion concentrations across the cell membrane.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. Which ion is primarily responsible for depolarization during an action potential?</p>
+    <ul>
+        <li>A) Potassium (K+)</li>
+        <li>B) Sodium (Na+)</li>
+        <li>C) Calcium (Ca2+)</li>
+        <li>D) Chloride (Cl-)</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: B) Sodium (Na+)<br><strong>Explanation:</strong> During depolarization, sodium channels open, allowing sodium ions to flow into the neuron, increasing the membrane potential.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. True or False: Action potentials decrease in strength as they travel along an axon.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: B) False<br><strong>Explanation:</strong> Action potentials are all-or-none signals that maintain their strength as they travel along the axon.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. What is the primary role of astrocytes in the CNS?</p>
+    <ul>
+        <li>A) Producing myelin</li>
+        <li>B) Forming the blood-brain barrier</li>
+        <li>C) Conducting nerve impulses</li>
+        <li>D) Phagocytosis</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: B) Forming the blood-brain barrier<br><strong>Explanation:</strong> Astrocytes contribute to the blood-brain barrier by regulating the passage of substances between blood vessels and neural tissue.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. What occurs at the synaptic cleft during synaptic transmission?</p>
+    <ul>
+        <li>A) Electrical signals are directly transmitted to the next neuron.</li>
+        <li>B) Neurotransmitters are released into the cleft.</li>
+        <li>C) Myelin sheaths are reabsorbed.</li>
+        <li>D) Sodium ions are released into the cleft.</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: B) Neurotransmitters are released into the cleft.<br><strong>Explanation:</strong> During synaptic transmission, neurotransmitters are released from the presynaptic neuron into the synaptic cleft and bind to receptors on the postsynaptic neuron.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. True or False: Ependymal cells help circulate cerebrospinal fluid (CSF).</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: A) True<br><strong>Explanation:</strong> Ependymal cells line the ventricles of the brain and the central canal of the spinal cord, helping to circulate cerebrospinal fluid.</div>
+</div>
+
+<!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. Which neurotransmitter is most commonly associated with the neuromuscular junction?</p>
+    <ul>
+        <li>A) Dopamine</li>
+        <li>B) Acetylcholine</li>
+        <li>C) Serotonin</li>
+        <li>D) GABA</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: B) Acetylcholine<br><strong>Explanation:</strong> Acetylcholine is the primary neurotransmitter at the neuromuscular junction, facilitating communication between neurons and muscle cells.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. True or False: Hyperpolarization occurs when the membrane potential becomes more negative than the resting potential.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: A) True<br><strong>Explanation:</strong> Hyperpolarization makes the membrane potential more negative, often following repolarization, during an action potential.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. Which part of the neuron integrates incoming signals and initiates an action potential?</p>
+    <ul>
+        <li>A) Dendrites</li>
+        <li>B) Axon hillock</li>
+        <li>C) Axon terminal</li>
+        <li>D) Soma</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: B) Axon hillock<br><strong>Explanation:</strong> The axon hillock is where incoming signals are summed, and if the threshold is reached, an action potential is initiated.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. True or False: The sympathetic nervous system is responsible for the "rest and digest" response.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: B) False<br><strong>Explanation:</strong> The sympathetic nervous system is responsible for the "fight or flight" response, while the parasympathetic system manages "rest and digest" activities.</div>
+</div>
+
+<!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. What is the role of voltage-gated sodium channels during an action potential?</p>
+    <ul>
+        <li>A) They close during depolarization.</li>
+        <li>B) They open during depolarization, allowing sodium ions to enter the cell.</li>
+        <li>C) They open during repolarization, allowing potassium ions to exit the cell.</li>
+        <li>D) They maintain the resting potential.</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: B) They open during depolarization, allowing sodium ions to enter the cell.<br><strong>Explanation:</strong> Voltage-gated sodium channels open in response to a change in membrane potential, initiating depolarization by allowing sodium ions to flow into the neuron.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. True or False: The parasympathetic nervous system decreases heart rate.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: A) True<br><strong>Explanation:</strong> The parasympathetic nervous system slows down heart rate as part of its "rest and digest" functions.</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. Which ion is primarily responsible for repolarization during an action potential?</p>
+    <ul>
+        <li>A) Sodium (Na+)</li>
+        <li>B) Potassium (K+)</li>
+        <li>C) Calcium (Ca2+)</li>
+        <li>D) Chloride (Cl-)</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: B) Potassium (K+)<br><strong>Explanation:</strong> During repolarization, potassium channels open, allowing potassium ions to leave the neuron, restoring the negative membrane potential.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. Which structure in the nervous system acts as a relay center for sensory information?</p>
+    <ul>
+        <li>A) Hypothalamus</li>
+        <li>B) Thalamus</li>
+        <li>C) Cerebellum</li>
+        <li>D) Brainstem</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: B) Thalamus<br><strong>Explanation:</strong> The thalamus processes and relays sensory information to the appropriate areas of the cerebral cortex.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. True or False: Saltatory conduction occurs in unmyelinated axons.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: B) False<br><strong>Explanation:</strong> Saltatory conduction occurs in myelinated axons, where action potentials jump between Nodes of Ranvier, increasing conduction speed.</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. What type of neuron transmits impulses from sensory receptors to the central nervous system?</p>
+    <ul>
+        <li>A) Motor neurons</li>
+        <li>B) Interneurons</li>
+        <li>C) Sensory neurons</li>
+        <li>D) Glial cells</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: C) Sensory neurons<br><strong>Explanation:</strong> Sensory neurons carry information from sensory receptors to the CNS for processing.</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question-container">
+    <p class="question">26. Which part of the brain is responsible for coordinating voluntary movements and balance?</p>
+    <ul>
+        <li>A) Cerebrum</li>
+        <li>B) Brainstem</li>
+        <li>C) Cerebellum</li>
+        <li>D) Thalamus</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: C) Cerebellum<br><strong>Explanation:</strong> The cerebellum coordinates voluntary movements and maintains balance and posture.</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question-container">
+    <p class="question">27. True or False: The dorsal root of a spinal nerve contains motor neurons.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: B) False<br><strong>Explanation:</strong> The dorsal root contains sensory neurons, while the ventral root contains motor neurons.</div>
+</div>
+
+<!-- Question 28 -->
+<div class="question-container">
+    <p class="question">28. What is the primary role of the hypothalamus in the nervous system?</p>
+    <ul>
+        <li>A) Processing sensory information</li>
+        <li>B) Regulating homeostasis</li>
+        <li>C) Controlling voluntary movements</li>
+        <li>D) Transmitting motor signals</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: B) Regulating homeostasis<br><strong>Explanation:</strong> The hypothalamus regulates homeostasis, including temperature control, hunger, thirst, and hormone release.</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question-container">
+    <p class="question">29. Which glial cells form the cerebrospinal fluid (CSF)?</p>
+    <ul>
+        <li>A) Astrocytes</li>
+        <li>B) Microglia</li>
+        <li>C) Ependymal cells</li>
+        <li>D) Schwann cells</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: C) Ependymal cells<br><strong>Explanation:</strong> Ependymal cells line the ventricles and central canal, producing and circulating cerebrospinal fluid (CSF).</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question-container">
+    <p class="question">30. True or False: Interneurons are found only in the central nervous system.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: A) True<br><strong>Explanation:</strong> Interneurons are located entirely within the CNS, where they integrate and process information.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
