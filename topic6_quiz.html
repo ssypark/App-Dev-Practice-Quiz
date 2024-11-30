@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 6: Bone Tissue Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('biology-pattern.png');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .show-answer:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Topic 6: Bone Tissue Quiz</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. What are the functions of the skeletal system? (Select all that apply)</p>
+    <ul>
+        <li>A) Support</li>
+        <li>B) Protection</li>
+        <li>C) Triglyceride storage</li>
+        <li>D) Blood cell production</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: A, B, C, D<br><strong>Explanation:</strong> The skeletal system provides support, protects organs, stores triglycerides, and produces blood cells.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. True or False: The epiphysis is the shaft of a long bone.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: B) False<br><strong>Explanation:</strong> The epiphysis is the end of a long bone, while the shaft is called the diaphysis.</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. What is the structural unit of compact bone?</p>
+    <ul>
+        <li>A) Trabeculae</li>
+        <li>B) Osteons</li>
+        <li>C) Lamellae</li>
+        <li>D) Osteocytes</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: B) Osteons<br><strong>Explanation:</strong> Osteons, also known as Haversian systems, are the structural units of compact bone.</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. True or False: Spongy bone contains osteons.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: B) False<br><strong>Explanation:</strong> Spongy bone does not contain osteons. It consists of trabeculae, which form a lattice-like structure.</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. What type of bone cell is responsible for bone resorption?</p>
+    <ul>
+        <li>A) Osteoblast</li>
+        <li>B) Osteocyte</li>
+        <li>C) Osteoclast</li>
+        <li>D) Osteoprogenitor</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: C) Osteoclast<br><strong>Explanation:</strong> Osteoclasts are responsible for bone resorption, breaking down bone tissue to release minerals.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. Which layer of the bone contains the medullary cavity?</p>
+    <ul>
+        <li>A) Epiphysis</li>
+        <li>B) Metaphysis</li>
+        <li>C) Diaphysis</li>
+        <li>D) Periosteum</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: C) Diaphysis<br><strong>Explanation:</strong> The diaphysis (shaft) of a long bone contains the medullary cavity, which stores yellow bone marrow in adults.</div>
+</div>
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. True or False: Red bone marrow is primarily responsible for storing triglycerides.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: B) False<br><strong>Explanation:</strong> Red bone marrow is responsible for blood cell production, while yellow bone marrow stores triglycerides.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. Which hormone is responsible for increasing blood calcium levels by stimulating bone resorption?</p>
+    <ul>
+        <li>A) Calcitonin</li>
+        <li>B) Parathyroid hormone (PTH)</li>
+        <li>C) Growth hormone</li>
+        <li>D) Vitamin D</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: B) Parathyroid hormone (PTH)<br><strong>Explanation:</strong> PTH increases blood calcium levels by stimulating osteoclast activity and promoting bone resorption.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. True or False: Compact bone is found in the interior of bones, providing structural support.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: B) False<br><strong>Explanation:</strong> Spongy bone is found in the interior of bones, while compact bone forms the outer layer.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. What is the role of calcitonin in bone homeostasis?</p>
+    <ul>
+        <li>A) Stimulates bone resorption</li>
+        <li>B) Increases osteoblast activity</li>
+        <li>C) Promotes calcium absorption in the intestines</li>
+        <li>D) Increases osteoclast activity</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: B) Increases osteoblast activity<br><strong>Explanation:</strong> Calcitonin reduces blood calcium levels by stimulating osteoblasts to deposit calcium into the bone.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. Which type of bone cell is derived from monocytes?</p>
+    <ul>
+        <li>A) Osteoblast</li>
+        <li>B) Osteocyte</li>
+        <li>C) Osteoclast</li>
+        <li>D) Osteoprogenitor</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: C) Osteoclast<br><strong>Explanation:</strong> Osteoclasts are derived from monocytes, a type of white blood cell, and are responsible for bone resorption.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. True or False: The periosteum contains osteoblasts and osteoclasts.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: A) True<br><strong>Explanation:</strong> The periosteum, a connective tissue layer covering the bone, contains osteoblasts and osteoclasts that aid in bone growth and repair.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. What is the name of the small channels that connect osteocytes in compact bone?</p>
+    <ul>
+        <li>A) Lacunae</li>
+        <li>B) Canaliculi</li>
+        <li>C) Lamellae</li>
+        <li>D) Haversian canals</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: B) Canaliculi<br><strong>Explanation:</strong> Canaliculi are small channels that connect osteocytes, allowing for the exchange of nutrients and waste.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. Which region of the long bone contains the growth plate?</p>
+    <ul>
+        <li>A) Diaphysis</li>
+        <li>B) Metaphysis</li>
+        <li>C) Epiphysis</li>
+        <li>D) Medullary cavity</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: B) Metaphysis<br><strong>Explanation:</strong> The metaphysis contains the epiphyseal growth plate, which is responsible for longitudinal bone growth in children.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. True or False: Trabeculae are found in compact bone.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: B) False<br><strong>Explanation:</strong> Trabeculae are found in spongy bone and provide structural support within the bone’s interior.</div>
+</div>
+
+<!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. Which type of bone formation occurs directly within connective tissue membranes?</p>
+    <ul>
+        <li>A) Endochondral ossification</li>
+        <li>B) Intramembranous ossification</li>
+        <li>C) Compact bone formation</li>
+        <li>D) Appositional growth</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: B) Intramembranous ossification<br><strong>Explanation:</strong> Intramembranous ossification is the process by which flat bones, such as the skull, are formed directly within mesenchymal connective tissue.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. True or False: Endochondral ossification requires a cartilage model to form bone.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: A) True<br><strong>Explanation:</strong> Endochondral ossification begins with a hyaline cartilage model, which is gradually replaced by bone.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. What is the name of the process by which bones grow in thickness?</p>
+    <ul>
+        <li>A) Longitudinal growth</li>
+        <li>B) Appositional growth</li>
+        <li>C) Endochondral growth</li>
+        <li>D) Intramembranous growth</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: B) Appositional growth<br><strong>Explanation:</strong> Appositional growth allows bones to grow in thickness by adding new layers of bone tissue to the surface.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. True or False: Vitamin D is required for proper calcium absorption in the intestines.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: A) True<br><strong>Explanation:</strong> Vitamin D enhances calcium absorption in the intestines, which is essential for bone health and mineralization.</div>
+</div>
+
+<!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. What is the name of the condition characterized by reduced bone mass and increased fragility?</p>
+    <ul>
+        <li>A) Osteomalacia</li>
+        <li>B) Osteoarthritis</li>
+        <li>C) Osteoporosis</li>
+        <li>D) Rickets</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: C) Osteoporosis<br><strong>Explanation:</strong> Osteoporosis is a condition in which bones lose mass, becoming weak and more prone to fractures.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. True or False: Bones undergo constant remodeling throughout life.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: A) True<br><strong>Explanation:</strong> Bone remodeling is a continuous process involving osteoclasts (bone resorption) and osteoblasts (bone formation).</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. Which bone cells are primarily involved in bone formation?</p>
+    <ul>
+        <li>A) Osteoblasts</li>
+        <li>B) Osteoclasts</li>
+        <li>C) Osteocytes</li>
+        <li>D) Chondrocytes</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: A) Osteoblasts<br><strong>Explanation:</strong> Osteoblasts are responsible for synthesizing new bone matrix and initiating bone mineralization.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. What is the name of the connective tissue that lines the medullary cavity?</p>
+    <ul>
+        <li>A) Periosteum</li>
+        <li>B) Endosteum</li>
+        <li>C) Epiphyseal plate</li>
+        <li>D) Cartilage</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: B) Endosteum<br><strong>Explanation:</strong> The endosteum is a thin connective tissue lining the medullary cavity, involved in bone growth and remodeling.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. True or False: Rickets is caused by a deficiency of vitamin D in adults.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: B) False<br><strong>Explanation:</strong> Rickets is caused by vitamin D deficiency in children, leading to soft and deformed bones. In adults, this condition is called osteomalacia.</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. What is the role of the Haversian canal in compact bone?</p>
+    <ul>
+        <li>A) Stores calcium</li>
+        <li>B) Provides attachment points for muscles</li>
+        <li>C) Contains blood vessels and nerves</li>
+        <li>D) Houses osteocytes</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: C) Contains blood vessels and nerves<br><strong>Explanation:</strong> The Haversian canal runs through the center of osteons, allowing blood vessels and nerves to supply bone tissue.</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question-container">
+    <p class="question">26. True or False: The axial skeleton includes the limbs and girdles.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: B) False<br><strong>Explanation:</strong> The axial skeleton includes the skull, vertebral column, and ribcage. The appendicular skeleton includes the limbs and girdles.</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question-container">
+    <p class="question">27. Which vitamin is essential for collagen synthesis in bone tissue?</p>
+    <ul>
+        <li>A) Vitamin A</li>
+        <li>B) Vitamin C</li>
+        <li>C) Vitamin D</li>
+        <li>D) Vitamin K</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: B) Vitamin C<br><strong>Explanation:</strong> Vitamin C is essential for collagen synthesis, which provides strength and flexibility to bone tissue.</div>
+</div>
+
+<!-- Question 28 -->
+<div class="question-container">
+    <p class="question">28. True or False: Compact bone is more porous than spongy bone.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: B) False<br><strong>Explanation:</strong> Spongy bone is more porous than compact bone, as it contains a lattice-like structure of trabeculae.</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question-container">
+    <p class="question">29. Which of the following bones is classified as a flat bone?</p>
+    <ul>
+        <li>A) Femur</li>
+        <li>B) Humerus</li>
+        <li>C) Sternum</li>
+        <li>D) Patella</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: C) Sternum<br><strong>Explanation:</strong> The sternum is classified as a flat bone, which provides protection and a surface for muscle attachment.</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question-container">
+    <p class="question">30. What is the function of the epiphyseal plate in growing bones?</p>
+    <ul>
+        <li>A) Bone resorption</li>
+        <li>B) Bone remodeling</li>
+        <li>C) Lengthwise growth</li>
+        <li>D) Widthwise growth</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: C) Lengthwise growth<br><strong>Explanation:</strong> The epiphyseal plate, or growth plate, is responsible for the lengthwise growth of long bones in children and adolescents.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
