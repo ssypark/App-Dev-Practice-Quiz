@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 5: Integumentary System Quiz (Part 2)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('biology-pattern.png');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .show-answer:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Topic 5: Integumentary System Quiz (Part 2)</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. True or False: Melanin is the only pigment contributing to skin color.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: B) False<br><strong>Explanation:</strong> Skin color is influenced by melanin, carotene, and hemoglobin.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. Which of the following layers is NOT part of the epidermis?</p>
+    <ul>
+        <li>A) Stratum corneum</li>
+        <li>B) Stratum lucidum</li>
+        <li>C) Stratum granulosum</li>
+        <li>D) Papillary layer</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: D) Papillary layer<br><strong>Explanation:</strong> The papillary layer is part of the dermis, not the epidermis.</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. What is the primary role of Langerhans cells in the epidermis?</p>
+    <ul>
+        <li>A) Producing keratin</li>
+        <li>B) Regulating water loss</li>
+        <li>C) Acting as immune cells</li>
+        <li>D) Producing melanin</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: C) Acting as immune cells<br><strong>Explanation:</strong> Langerhans cells are antigen-presenting cells that help initiate the immune response in the skin.</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. True or False: Sebaceous glands are found on both thick and thin skin.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: B) False<br><strong>Explanation:</strong> Sebaceous glands are found in thin skin but are absent in thick skin like the palms and soles.</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. Which of the following is a function of the skin?</p>
+    <ul>
+        <li>A) Protection against UV radiation</li>
+        <li>B) Regulation of body temperature</li>
+        <li>C) Sensory perception</li>
+        <li>D) All of the above</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: D) All of the above<br><strong>Explanation:</strong> The skin serves multiple functions, including protection, temperature regulation, and sensory input.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. True or False: Hair follicles are located in the dermis.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: A) True<br><strong>Explanation:</strong> Hair follicles are embedded in the dermis, where they are anchored and supported.</div>
+</div>
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. What type of sweat gland becomes active during puberty and is associated with hair follicles?</p>
+    <ul>
+        <li>A) Eccrine glands</li>
+        <li>B) Apocrine glands</li>
+        <li>C) Sebaceous glands</li>
+        <li>D) Ceruminous glands</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: B) Apocrine glands<br><strong>Explanation:</strong> Apocrine glands become active during puberty and are located in areas like the armpits and groin, secreting sweat associated with hair follicles.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. True or False: The stratum lucidum is present in both thick and thin skin.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: B) False<br><strong>Explanation:</strong> The stratum lucidum is only present in thick skin, such as the palms of the hands and soles of the feet.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. Which of the following layers of the epidermis is responsible for cell division and new cell production?</p>
+    <ul>
+        <li>A) Stratum basale</li>
+        <li>B) Stratum spinosum</li>
+        <li>C) Stratum granulosum</li>
+        <li>D) Stratum corneum</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: A) Stratum basale<br><strong>Explanation:</strong> The stratum basale is the deepest layer of the epidermis, where cell division occurs to replace dead skin cells.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. What is the role of ceruminous glands in the skin?</p>
+    <ul>
+        <li>A) Producing sweat</li>
+        <li>B) Producing earwax</li>
+        <li>C) Lubricating the skin</li>
+        <li>D) Producing melanin</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: B) Producing earwax<br><strong>Explanation:</strong> Ceruminous glands, located in the ear canal, produce earwax (cerumen) to protect and lubricate the ear.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. True or False: The reticular region of the dermis provides strength and elasticity to the skin.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: A) True<br><strong>Explanation:</strong> The reticular region of the dermis contains dense irregular connective tissue, providing strength and elasticity to the skin.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. What is the primary function of the hypodermis?</p>
+    <ul>
+        <li>A) Insulation and cushioning</li>
+        <li>B) Producing sweat</li>
+        <li>C) Synthesizing vitamin D</li>
+        <li>D) Protecting the hair follicles</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: A) Insulation and cushioning<br><strong>Explanation:</strong> The hypodermis, also known as the subcutaneous layer, provides insulation, cushioning, and energy storage.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. Which pigment is responsible for the yellow-orange coloration of the skin?</p>
+    <ul>
+        <li>A) Melanin</li>
+        <li>B) Carotene</li>
+        <li>C) Hemoglobin</li>
+        <li>D) Collagen</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: B) Carotene<br><strong>Explanation:</strong> Carotene is a yellow-orange pigment stored in the skin that contributes to its coloration.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. True or False: Hair grows from the epidermis and contains living cells throughout its structure.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: B) False<br><strong>Explanation:</strong> Hair originates in the dermis, and only the cells in the hair bulb are living; the rest of the hair shaft is made of keratinized dead cells.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. What is the role of Merkel cells in the epidermis?</p>
+    <ul>
+        <li>A) Producing keratin</li>
+        <li>B) Providing sensory information</li>
+        <li>C) Producing melanin</li>
+        <li>D) Regulating sweat production</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: B) Providing sensory information<br><strong>Explanation:</strong> Merkel cells are sensory receptors in the epidermis, involved in the detection of touch.</div>
+</div>
+<!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. What is the name of the structure that produces hair?</p>
+    <ul>
+        <li>A) Sebaceous gland</li>
+        <li>B) Hair bulb</li>
+        <li>C) Hair shaft</li>
+        <li>D) Hair matrix</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: B) Hair bulb<br><strong>Explanation:</strong> The hair bulb is the base of the hair follicle where hair cells divide and produce the hair shaft.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. True or False: The arrector pili muscle is responsible for raising hair and causing "goosebumps."</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: A) True<br><strong>Explanation:</strong> The arrector pili muscle contracts to raise hair, which can occur during cold temperatures or emotional responses.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. Which of the following layers of the skin contains blood vessels?</p>
+    <ul>
+        <li>A) Epidermis</li>
+        <li>B) Dermis</li>
+        <li>C) Stratum corneum</li>
+        <li>D) Stratum lucidum</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: B) Dermis<br><strong>Explanation:</strong> The dermis is the layer of the skin that contains blood vessels, nerves, and other structures that support the epidermis.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. What type of sweat gland is primarily involved in thermoregulation?</p>
+    <ul>
+        <li>A) Apocrine glands</li>
+        <li>B) Eccrine glands</li>
+        <li>C) Sebaceous glands</li>
+        <li>D) Ceruminous glands</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: B) Eccrine glands<br><strong>Explanation:</strong> Eccrine glands secrete sweat directly onto the skin surface to help cool the body during thermoregulation.</div>
+</div>
+
+<!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. True or False: Melanin provides protection against UV radiation.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: A) True<br><strong>Explanation:</strong> Melanin absorbs and disperses UV radiation, protecting skin cells from DNA damage.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. What is the thickest layer of the dermis?</p>
+    <ul>
+        <li>A) Papillary layer</li>
+        <li>B) Reticular layer</li>
+        <li>C) Epidermal layer</li>
+        <li>D) Hypodermis</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: B) Reticular layer<br><strong>Explanation:</strong> The reticular layer of the dermis is thicker than the papillary layer and provides skin strength and elasticity.</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. True or False: The hypodermis is a part of the skin.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: B) False<br><strong>Explanation:</strong> The hypodermis, also called the subcutaneous layer, is not technically part of the skin but connects the skin to underlying tissues.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. What type of connective tissue primarily makes up the dermis?</p>
+    <ul>
+        <li>A) Loose connective tissue</li>
+        <li>B) Dense irregular connective tissue</li>
+        <li>C) Adipose tissue</li>
+        <li>D) Cartilage</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: B) Dense irregular connective tissue<br><strong>Explanation:</strong> The dermis is composed of dense irregular connective tissue, providing strength and flexibility to the skin.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. What layer of the skin is involved in vitamin D synthesis?</p>
+    <ul>
+        <li>A) Epidermis</li>
+        <li>B) Dermis</li>
+        <li>C) Hypodermis</li>
+        <li>D) Stratum corneum</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: A) Epidermis<br><strong>Explanation:</strong> Vitamin D synthesis begins in the epidermis when skin is exposed to UV light.</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. True or False: The stratum corneum is composed entirely of dead cells.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: A) True<br><strong>Explanation:</strong> The stratum corneum, the outermost layer of the epidermis, is composed entirely of keratinized dead cells that provide a protective barrier.</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question-container">
+    <p class="question">26. What is the primary function of sebaceous glands?</p>
+    <ul>
+        <li>A) Producing sweat</li>
+        <li>B) Producing sebum</li>
+        <li>C) Synthesizing keratin</li>
+        <li>D) Producing melanin</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: B) Producing sebum<br><strong>Explanation:</strong> Sebaceous glands secrete sebum, an oily substance that lubricates the skin and hair.</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question-container">
+    <p class="question">27. True or False: Collagen fibers in the dermis provide elasticity to the skin.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: B) False<br><strong>Explanation:</strong> Collagen fibers provide strength to the dermis, while elastic fibers are responsible for elasticity.</div>
+</div>
+
+<!-- Question 28 -->
+<div class="question-container">
+    <p class="question">28. What is the name of the connective tissue that surrounds each hair follicle?</p>
+    <ul>
+        <li>A) Papillary dermis</li>
+        <li>B) Reticular dermis</li>
+        <li>C) Dermal root sheath</li>
+        <li>D) Hypodermis</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: C) Dermal root sheath<br><strong>Explanation:</strong> The dermal root sheath surrounds the hair follicle and provides it with structural support.</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question-container">
+    <p class="question">29. True or False: The papillary layer of the dermis contains capillaries and tactile receptors.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: A) True<br><strong>Explanation:</strong> The papillary layer contains capillaries, tactile receptors, and other structures that nourish the epidermis and detect touch.</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question-container">
+    <p class="question">30. Which layer of the epidermis is responsible for waterproofing the skin?</p>
+    <ul>
+        <li>A) Stratum corneum</li>
+        <li>B) Stratum lucidum</li>
+        <li>C) Stratum granulosum</li>
+        <li>D) Stratum spinosum</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: C) Stratum granulosum<br><strong>Explanation:</strong> The stratum granulosum contains keratohyalin granules, which help in waterproofing the skin.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
