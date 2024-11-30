@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic 6: Bone Tissue Quiz (Part 2)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('biology-pattern.png');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            color: #333;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        .question-container {
+            background: #fff;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+        }
+
+        .show-answer {
+            display: block;
+            margin: 15px 0;
+            padding: 12px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .show-answer:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        .answer {
+            display: none;
+            margin-top: 15px;
+            background: #dff0d8;
+            border-left: 5px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            color: #3c763d;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Topic 6: Bone Tissue Quiz (Part 2)</h1>
+
+<!-- Question 1 -->
+<div class="question-container">
+    <p class="question">1. True or False: Bone is a type of connective tissue.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(1)">Show Answer</button>
+    <div id="answer1" class="answer">Answer: A) True<br><strong>Explanation:</strong> Bone is a specialized connective tissue composed of cells and extracellular matrix that supports and protects the body.</div>
+</div>
+
+<!-- Question 2 -->
+<div class="question-container">
+    <p class="question">2. What are the two types of bone tissue?</p>
+    <ul>
+        <li>A) Compact and cancellous bone</li>
+        <li>B) Cortical and trabecular bone</li>
+        <li>C) Spongy and compact bone</li>
+        <li>D) All of the above</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(2)">Show Answer</button>
+    <div id="answer2" class="answer">Answer: D) All of the above<br><strong>Explanation:</strong> The terms compact, cortical, spongy, and cancellous are used to describe the two main types of bone tissue.</div>
+</div>
+
+<!-- Question 3 -->
+<div class="question-container">
+    <p class="question">3. Which bone cell is responsible for forming new bone tissue?</p>
+    <ul>
+        <li>A) Osteocytes</li>
+        <li>B) Osteoblasts</li>
+        <li>C) Osteoclasts</li>
+        <li>D) Chondrocytes</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(3)">Show Answer</button>
+    <div id="answer3" class="answer">Answer: B) Osteoblasts<br><strong>Explanation:</strong> Osteoblasts are bone-forming cells that secrete the matrix and aid in mineralizing bone.</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question-container">
+    <p class="question">4. True or False: The periosteum covers the outer surface of bones and is involved in bone growth and repair.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(4)">Show Answer</button>
+    <div id="answer4" class="answer">Answer: A) True<br><strong>Explanation:</strong> The periosteum is a fibrous membrane that contains cells essential for bone growth and repair.</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question-container">
+    <p class="question">5. What is the primary role of osteoclasts in bone tissue?</p>
+    <ul>
+        <li>A) Bone formation</li>
+        <li>B) Bone resorption</li>
+        <li>C) Calcium storage</li>
+        <li>D) Cartilage production</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(5)">Show Answer</button>
+    <div id="answer5" class="answer">Answer: B) Bone resorption<br><strong>Explanation:</strong> Osteoclasts break down bone tissue during bone remodeling, releasing calcium and other minerals into the bloodstream.</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question-container">
+    <p class="question">6. True or False: The diaphysis of a long bone is filled with red bone marrow in adults.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(6)">Show Answer</button>
+    <div id="answer6" class="answer">Answer: B) False<br><strong>Explanation:</strong> In adults, the diaphysis of long bones contains yellow bone marrow, which stores triglycerides, while red bone marrow is typically found in flat bones and the ends of long bones.</div>
+</div>
+<!-- Question 7 -->
+<div class="question-container">
+    <p class="question">7. What is the primary mineral stored in bone tissue?</p>
+    <ul>
+        <li>A) Potassium</li>
+        <li>B) Sodium</li>
+        <li>C) Calcium</li>
+        <li>D) Iron</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(7)">Show Answer</button>
+    <div id="answer7" class="answer">Answer: C) Calcium<br><strong>Explanation:</strong> Bone tissue stores calcium, which is essential for maintaining bone strength and other physiological functions.</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question-container">
+    <p class="question">8. True or False: Spongy bone is primarily located in the diaphysis of long bones.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(8)">Show Answer</button>
+    <div id="answer8" class="answer">Answer: B) False<br><strong>Explanation:</strong> Spongy bone is found in the epiphysis (ends) of long bones, while the diaphysis is composed mainly of compact bone.</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question-container">
+    <p class="question">9. Which of the following structures is found in an osteon?</p>
+    <ul>
+        <li>A) Lamellae</li>
+        <li>B) Haversian canal</li>
+        <li>C) Canaliculi</li>
+        <li>D) All of the above</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(9)">Show Answer</button>
+    <div id="answer9" class="answer">Answer: D) All of the above<br><strong>Explanation:</strong> An osteon includes concentric lamellae, a central Haversian canal, and canaliculi that connect osteocytes within lacunae.</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question-container">
+    <p class="question">10. What type of cartilage is found at the ends of long bones in a joint?</p>
+    <ul>
+        <li>A) Elastic cartilage</li>
+        <li>B) Fibrocartilage</li>
+        <li>C) Hyaline cartilage</li>
+        <li>D) Articular cartilage</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(10)">Show Answer</button>
+    <div id="answer10" class="answer">Answer: D) Articular cartilage<br><strong>Explanation:</strong> Articular cartilage is a type of hyaline cartilage that covers the ends of bones in synovial joints to reduce friction and absorb shock.</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question-container">
+    <p class="question">11. True or False: Endochondral ossification involves the replacement of cartilage with bone.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(11)">Show Answer</button>
+    <div id="answer11" class="answer">Answer: A) True<br><strong>Explanation:</strong> Endochondral ossification involves the gradual replacement of a cartilage model with bone tissue during fetal development and growth.</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question-container">
+    <p class="question">12. Which part of the bone contains the medullary cavity?</p>
+    <ul>
+        <li>A) Epiphysis</li>
+        <li>B) Metaphysis</li>
+        <li>C) Diaphysis</li>
+        <li>D) Periosteum</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(12)">Show Answer</button>
+    <div id="answer12" class="answer">Answer: C) Diaphysis<br><strong>Explanation:</strong> The diaphysis, or shaft of a long bone, contains the medullary cavity, which stores yellow marrow in adults.</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question-container">
+    <p class="question">13. What is the function of trabeculae in spongy bone?</p>
+    <ul>
+        <li>A) Storing fat</li>
+        <li>B) Providing strength while reducing weight</li>
+        <li>C) Storing calcium</li>
+        <li>D) Connecting muscles to bones</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(13)">Show Answer</button>
+    <div id="answer13" class="answer">Answer: B) Providing strength while reducing weight<br><strong>Explanation:</strong> Trabeculae in spongy bone create a lattice structure that provides strength without the weight of compact bone.</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question-container">
+    <p class="question">14. True or False: The epiphyseal plate is responsible for bone growth in width.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(14)">Show Answer</button>
+    <div id="answer14" class="answer">Answer: B) False<br><strong>Explanation:</strong> The epiphyseal plate, or growth plate, is responsible for longitudinal growth in bones, not width.</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question-container">
+    <p class="question">15. Which type of bone cell becomes embedded in the matrix and helps maintain bone tissue?</p>
+    <ul>
+        <li>A) Osteoclast</li>
+        <li>B) Osteoblast</li>
+        <li>C) Osteocyte</li>
+        <li>D) Chondrocyte</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(15)">Show Answer</button>
+    <div id="answer15" class="answer">Answer: C) Osteocyte<br><strong>Explanation:</strong> Osteocytes are mature bone cells that become embedded in the bone matrix and maintain bone tissue.</div>
+</div>
+<!-- Question 16 -->
+<div class="question-container">
+    <p class="question">16. True or False: Compact bone is organized into osteons, while spongy bone is arranged in trabeculae.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(16)">Show Answer</button>
+    <div id="answer16" class="answer">Answer: A) True<br><strong>Explanation:</strong> Compact bone is composed of osteons for structural support, while spongy bone consists of trabeculae to reduce weight and distribute stress.</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question-container">
+    <p class="question">17. Which hormone stimulates bone resorption to increase blood calcium levels?</p>
+    <ul>
+        <li>A) Calcitonin</li>
+        <li>B) Parathyroid hormone (PTH)</li>
+        <li>C) Growth hormone</li>
+        <li>D) Vitamin D</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(17)">Show Answer</button>
+    <div id="answer17" class="answer">Answer: B) Parathyroid hormone (PTH)<br><strong>Explanation:</strong> PTH stimulates osteoclast activity to break down bone and release calcium into the bloodstream.</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question-container">
+    <p class="question">18. What is the function of canaliculi in bone tissue?</p>
+    <ul>
+        <li>A) To store calcium</li>
+        <li>B) To connect lacunae and allow communication between osteocytes</li>
+        <li>C) To supply blood to the bone matrix</li>
+        <li>D) To provide structural support</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(18)">Show Answer</button>
+    <div id="answer18" class="answer">Answer: B) To connect lacunae and allow communication between osteocytes<br><strong>Explanation:</strong> Canaliculi are small channels that connect lacunae, enabling nutrient and waste exchange between osteocytes.</div>
+</div>
+
+<!-- Question 19 -->
+<div class="question-container">
+    <p class="question">19. True or False: Bones stop remodeling once growth is complete.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(19)">Show Answer</button>
+    <div id="answer19" class="answer">Answer: B) False<br><strong>Explanation:</strong> Bone remodeling is a continuous process throughout life, balancing bone resorption and formation to adapt to stress and maintain strength.</div>
+</div>
+
+<!-- Question 20 -->
+<div class="question-container">
+    <p class="question">20. Which vitamin is essential for collagen synthesis in bone tissue?</p>
+    <ul>
+        <li>A) Vitamin A</li>
+        <li>B) Vitamin C</li>
+        <li>C) Vitamin D</li>
+        <li>D) Vitamin K</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(20)">Show Answer</button>
+    <div id="answer20" class="answer">Answer: B) Vitamin C<br><strong>Explanation:</strong> Vitamin C is crucial for collagen synthesis, which provides flexibility and strength to bone tissue.</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question-container">
+    <p class="question">21. True or False: Osteoporosis is caused by an imbalance where bone resorption outpaces bone formation.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(21)">Show Answer</button>
+    <div id="answer21" class="answer">Answer: A) True<br><strong>Explanation:</strong> Osteoporosis occurs when bone resorption exceeds bone formation, leading to weakened and brittle bones.</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question-container">
+    <p class="question">22. What is the primary function of red bone marrow?</p>
+    <ul>
+        <li>A) Storing fat</li>
+        <li>B) Producing blood cells</li>
+        <li>C) Storing calcium</li>
+        <li>D) Forming cartilage</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(22)">Show Answer</button>
+    <div id="answer22" class="answer">Answer: B) Producing blood cells<br><strong>Explanation:</strong> Red bone marrow produces red blood cells, white blood cells, and platelets in a process called hematopoiesis.</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question-container">
+    <p class="question">23. Which hormone promotes calcium deposition in bones?</p>
+    <ul>
+        <li>A) Calcitonin</li>
+        <li>B) Parathyroid hormone (PTH)</li>
+        <li>C) Estrogen</li>
+        <li>D) Thyroxine</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(23)">Show Answer</button>
+    <div id="answer23" class="answer">Answer: A) Calcitonin<br><strong>Explanation:</strong> Calcitonin inhibits osteoclast activity and promotes calcium deposition in bones, lowering blood calcium levels.</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question-container">
+    <p class="question">24. True or False: The axial skeleton includes the skull, vertebral column, and rib cage.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(24)">Show Answer</button>
+    <div id="answer24" class="answer">Answer: A) True<br><strong>Explanation:</strong> The axial skeleton provides structural support and protection for the brain, spinal cord, and thoracic organs.</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question-container">
+    <p class="question">25. What type of bone growth increases the width of bones?</p>
+    <ul>
+        <li>A) Longitudinal growth</li>
+        <li>B) Appositional growth</li>
+        <li>C) Endochondral growth</li>
+        <li>D) Intramembranous growth</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(25)">Show Answer</button>
+    <div id="answer25" class="answer">Answer: B) Appositional growth<br><strong>Explanation:</strong> Appositional growth involves the addition of bone tissue to the outer surface, increasing bone width.</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question-container">
+    <p class="question">26. Which part of the bone stores yellow bone marrow in adults?</p>
+    <ul>
+        <li>A) Epiphysis</li>
+        <li>B) Medullary cavity</li>
+        <li>C) Periosteum</li>
+        <li>D) Trabeculae</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(26)">Show Answer</button>
+    <div id="answer26" class="answer">Answer: B) Medullary cavity<br><strong>Explanation:</strong> The medullary cavity, located in the diaphysis of long bones, stores yellow bone marrow in adults.</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question-container">
+    <p class="question">27. True or False: Growth hormone promotes bone growth during childhood by stimulating the epiphyseal plate.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(27)">Show Answer</button>
+    <div id="answer27" class="answer">Answer: A) True<br><strong>Explanation:</strong> Growth hormone stimulates the activity of the epiphyseal plate, promoting bone growth during childhood and adolescence.</div>
+</div>
+
+<!-- Question 28 -->
+<div class="question-container">
+    <p class="question">28. What is the primary component of the bone matrix?</p>
+    <ul>
+        <li>A) Collagen fibers and calcium salts</li>
+        <li>B) Elastic fibers and potassium salts</li>
+        <li>C) Proteins and sodium salts</li>
+        <li>D) Adipose tissue and phosphate salts</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(28)">Show Answer</button>
+    <div id="answer28" class="answer">Answer: A) Collagen fibers and calcium salts<br><strong>Explanation:</strong> The bone matrix is primarily composed of collagen fibers for flexibility and calcium salts for strength.</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question-container">
+    <p class="question">29. Which vitamin enhances calcium absorption in the intestines?</p>
+    <ul>
+        <li>A) Vitamin A</li>
+        <li>B) Vitamin C</li>
+        <li>C) Vitamin D</li>
+        <li>D) Vitamin K</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(29)">Show Answer</button>
+    <div id="answer29" class="answer">Answer: C) Vitamin D<br><strong>Explanation:</strong> Vitamin D increases calcium absorption in the intestines, supporting bone health and mineralization.</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question-container">
+    <p class="question">30. True or False: Osteoblasts are derived from osteoprogenitor cells.</p>
+    <ul>
+        <li>A) True</li>
+        <li>B) False</li>
+    </ul>
+    <button class="show-answer" onclick="toggleAnswer(30)">Show Answer</button>
+    <div id="answer30" class="answer">Answer: A) True<br><strong>Explanation:</strong> Osteoblasts develop from osteoprogenitor cells, which differentiate into bone-forming cells.</div>
+</div>
+
+<footer>
+    <p>Created with ❤️ for learning Anatomy and Physiology!</p>
+</footer>
+
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
+<!-- Continue for Questions 16–30 -->
+<script>
+    function toggleAnswer(questionNumber) {
+        const answerElement = document.getElementById('answer' + questionNumber);
+        if (answerElement.style.display === 'none' || answerElement.style.display === '') {
+            answerElement.style.display = 'block';
+        } else {
+            answerElement.style.display = 'none';
+        }
+    }
+</script>
+
+</body>
+</html>
